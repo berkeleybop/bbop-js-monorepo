@@ -4,8 +4,9 @@ Monorepo for BBOP JS packages.
 
 ## Prerequisites
 
-- Node.js 24.
-  > It is recommended to use [`nvm`](https://github.com/nvm-sh/nvm) to manage Node.js versions. Node.js v24 can be installed with `nvm install 24`. Calling `nvm use` in this directory will switch to the correct version based on the `.nvmrc` file.
+- Supported runtime: Node.js 22 and 24 LTS.
+- Recommended development runtime: Node.js 24.
+  > It is recommended to use [`nvm`](https://github.com/nvm-sh/nvm) to manage Node.js versions. Node.js v24 can be installed with `nvm install 24`. Calling `nvm use` in this directory will switch to the recommended development version based on the `.nvmrc` file.
 
 ## Development
 
