@@ -13,4 +13,3 @@ environment.
 [GitHub](https://github.com/berkeleybop/bbop-js-monorepo/packages/bbop-core)
 
 [NPM](https://www.npmjs.com/package/bbop-core)
-
