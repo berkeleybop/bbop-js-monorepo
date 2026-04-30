@@ -85,7 +85,7 @@ describe("edges", function () {
   it("basically functional", function () {
     assert.isDefined(e1, "at least this would be nice (edge 1)");
     assert.isDefined(e2, "at least this would be nice (edge 2)");
-    assert.isDefined(e2, "at least this would be nice (edge 3)");
+    assert.isDefined(e3, "at least this would be nice (edge 3)");
 
     assert.equal("a", e1.subject_id(), "is a");
     assert.equal("b", e1.object_id(), "is b");
@@ -341,7 +341,7 @@ describe("failing case from the taxslim", function () {
     var g = new model.graph();
     g.load_base_json(tax);
 
-    assert.equal(g.all_dangling(), 0, "nothing dangling");
+    assert.equal(g.all_dangling().length, 0, "nothing dangling");
     assert.isTrue(g.is_complete(), "tax is complete");
 
     var leaves = g.get_child_nodes("NCBITaxon:89593");
