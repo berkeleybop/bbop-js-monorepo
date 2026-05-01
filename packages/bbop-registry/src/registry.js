@@ -10,7 +10,7 @@ import bbop from "bbop-core";
 var each = us.each;
 
 /**
- * Contructor for BBOP registry. Takes a list of event categories as
+ * Constructor for BBOP registry. Takes a list of event categories as
  * strings.
  *
  * @constructor
