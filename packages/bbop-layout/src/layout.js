@@ -9,7 +9,7 @@ var each = us.each;
 /// Corner layout.
 ///
 
-// Between 75 and 125.
+// Returns a random value between 0 (inclusive) and 1 (exclusive).
 var randomer = function () {
   //var min = -25;
   //var max = 25;
