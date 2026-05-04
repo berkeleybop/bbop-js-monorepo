@@ -1,0 +1,116 @@
+{
+    "packet-id": "5083d513338018",
+    "uid": "GOC:kltm",
+    "is-reasoned": true,
+    "intention": "query",
+    "signal": "rebuild",
+    "message-type": "success",
+    "message": "success",
+    "data": {
+        "id": "gomodel:55ad81df00000001",
+        "modified-p": true,
+        "annotations": [
+            {
+                "key": "comment",
+                "value": "Model to be used for experiments and testing."
+            },
+            {
+                "key": "title",
+                "value": "Scratch"
+            },
+            {
+                "key": "contributor",
+                "value": "http://orcid.org/0000-0002-6601-2165"
+            },
+            {
+                "key": "contributor",
+                "value": "GOC:sjc"
+            },
+            {
+                "key": "contributor",
+                "value": "GOC:kltm"
+            },
+            {
+                "key": "state",
+                "value": "development"
+            },
+            {
+                "key": "date",
+                "value": "2016-01-08"
+            }
+        ],
+        "facts": [
+            {
+                "subject": "gomodel:55ad81df00000001/56902be400000001",
+                "property": "BFO:0000050",
+                "object": "gomodel:55ad81df00000001/56902be400000002",
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "GOC:kltm"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2016-01-08"
+                    }
+                ]
+            }
+        ],
+        "individuals": [
+            {
+                "id": "gomodel:55ad81df00000001/56902be400000002",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0000278",
+                        "label": "mitotic cell cycle"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2016-01-08"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:kltm"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:55ad81df00000001/56902be400000001",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0051231",
+                        "label": "spindle elongation"
+                    }
+                ],
+                "inferred-type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0000022",
+                        "label": "mitotic spindle elongation"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "GOC:kltm"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2016-01-08"
+                    }
+                ]
+            }
+        ],
+        "properties": [
+            {
+                "type": "property",
+                "id": "BFO:0000050",
+                "label": "part of"
+            }
+        ]
+    }
+}

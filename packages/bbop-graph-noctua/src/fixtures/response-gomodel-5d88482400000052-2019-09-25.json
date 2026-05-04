@@ -1,0 +1,4691 @@
+{
+    "packet-id": "137084cc46d74214",
+    "provided-by": [],
+    "is-reasoned": true,
+    "intention": "query",
+    "signal": "rebuild",
+    "message-type": "success",
+    "message": "success",
+    "data": {
+        "modified-p": false,
+        "validation-results": {
+            "is-conformant": false,
+            "owl-validation": {
+                "id": "OWL_REASONER",
+                "is-conformant": true,
+                "tracker": "https://github.com/geneontology/helpdesk/issues",
+                "rule-file": "https://github.com/geneontology/go-ontology"
+            },
+            "shex-validation": {
+                "node-matched-shapes": {
+                    "gomodel:5d88482400000052/5d88482400000088": [
+                        "http://purl.obolibrary.org/obo/go/shapes/Evidence"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000087": [
+                        "http://purl.obolibrary.org/obo/go/shapes/CellularComponent"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000101": [
+                        "http://purl.obolibrary.org/obo/go/shapes/BiologicalProcess"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000089": [
+                        "http://purl.obolibrary.org/obo/go/shapes/MolecularFunction"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000102": [
+                        "http://purl.obolibrary.org/obo/go/shapes/Evidence"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000105": [
+                        "http://purl.obolibrary.org/obo/go/shapes/CellularComponent"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000060": [
+                        "http://purl.obolibrary.org/obo/go/shapes/Evidence"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000084": [
+                        "http://purl.obolibrary.org/obo/go/shapes/CellularComponent"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000083": [
+                        "http://purl.obolibrary.org/obo/go/shapes/Evidence"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000061": [
+                        "http://purl.obolibrary.org/obo/go/shapes/Evidence"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000063": [
+                        "http://purl.obolibrary.org/obo/go/shapes/Evidence"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000085": [
+                        "http://purl.obolibrary.org/obo/go/shapes/Evidence"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000117": [
+                        "http://purl.obolibrary.org/obo/go/shapes/Evidence"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000099": [
+                        "http://purl.obolibrary.org/obo/go/shapes/MolecularFunction"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000077": [
+                        "http://purl.obolibrary.org/obo/go/shapes/Evidence"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000076": [
+                        "http://purl.obolibrary.org/obo/go/shapes/BiologicalProcess"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000098": [
+                        "http://purl.obolibrary.org/obo/go/shapes/Evidence"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000112": [
+                        "http://purl.obolibrary.org/obo/go/shapes/BiologicalProcess"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000079": [
+                        "http://purl.obolibrary.org/obo/go/shapes/Evidence"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000111": [
+                        "http://purl.obolibrary.org/obo/go/shapes/Evidence"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000114": [
+                        "http://purl.obolibrary.org/obo/go/shapes/CellularComponent"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000058": [
+                        "http://purl.obolibrary.org/obo/go/shapes/CellularComponent"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000113": [
+                        "http://purl.obolibrary.org/obo/go/shapes/Evidence"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000116": [
+                        "http://purl.obolibrary.org/obo/go/shapes/CellularComponent"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000115": [
+                        "http://purl.obolibrary.org/obo/go/shapes/Evidence"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000091": [
+                        "http://purl.obolibrary.org/obo/go/shapes/BiologicalProcess"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000092": [
+                        "http://purl.obolibrary.org/obo/go/shapes/Evidence"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000073": [
+                        "http://purl.obolibrary.org/obo/go/shapes/MolecularFunction"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000095": [
+                        "http://purl.obolibrary.org/obo/go/shapes/CellularComponent"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000094": [
+                        "http://purl.obolibrary.org/obo/go/shapes/Evidence"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000053": [
+                        "http://purl.obolibrary.org/obo/go/shapes/MolecularFunction"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000097": [
+                        "http://purl.obolibrary.org/obo/go/shapes/CellularComponent"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000075": [
+                        "http://purl.obolibrary.org/obo/go/shapes/Evidence"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000096": [
+                        "http://purl.obolibrary.org/obo/go/shapes/Evidence"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000107": [
+                        "http://purl.obolibrary.org/obo/go/shapes/CellularComponent"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000106": [
+                        "http://purl.obolibrary.org/obo/go/shapes/Evidence"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000109": [
+                        "http://purl.obolibrary.org/obo/go/shapes/MolecularFunction"
+                    ],
+                    "gomodel:5d88482400000052/5d88482400000108": [
+                        "http://purl.obolibrary.org/obo/go/shapes/Evidence"
+                    ]
+                },
+                "is-conformant": false,
+                "tracker": "https://github.com/geneontology/go-shapes/issues",
+                "rule-file": "https://github.com/geneontology/go-shapes/blob/master/shapes/go-cam-shapes.shex",
+                "violations": [
+                    {
+                        "explanations": [
+                            {
+                                "shape": "http://purl.obolibrary.org/obo/go/shapes/MolecularFunction",
+                                "constraints": [
+                                    {
+                                        "object": "gomodel:5d88482400000052/5d88482400000082",
+                                        "property": "RO:0002418",
+                                        "intended-range-shapes": [
+                                            "http://purl.obolibrary.org/obo/go/shapes/BiologicalProcess"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "node": "gomodel:5d88482400000052/5d88482400000080"
+                    },
+                    {
+                        "explanations": [],
+                        "node": "gomodel:5d88482400000052/5d88482400000093"
+                    }
+                ]
+            }
+        },
+        "id": "gomodel:5d88482400000052",
+        "individuals": [
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000053",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0004674",
+                        "label": "protein serine/threonine kinase activity"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "BFO:0000015",
+                        "label": "Process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0004672",
+                        "label": "protein kinase activity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000003",
+                        "label": "occurrent"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0016772",
+                        "label": "transferase activity, transferring phosphorus-containing groups"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0016773",
+                        "label": "phosphotransferase activity, alcohol group as acceptor"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0016740",
+                        "label": "transferase activity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0004674",
+                        "label": "protein serine/threonine kinase activity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0016301",
+                        "label": "kinase activity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0003674",
+                        "label": "Molecular Function"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0140096",
+                        "label": "catalytic activity, acting on a protein"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0003824",
+                        "label": "catalytic activity"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-24"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000054",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "WB:WBGene00003401",
+                        "label": "mpk-1 Cele"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33582",
+                        "label": "carbon group molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33694",
+                        "label": "biomacromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:36357",
+                        "label": "polyatomic entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33695",
+                        "label": "chebi gene"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33675",
+                        "label": "p-block molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "WB:WBGene00003401",
+                        "label": "mpk-1 Cele"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33579",
+                        "label": "main group molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000004",
+                        "label": "independent continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33839",
+                        "label": "macromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:50860",
+                        "label": "organic molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:24431",
+                        "label": "chemical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000002",
+                        "label": "continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:23367",
+                        "label": "molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000040",
+                        "label": "material entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000030",
+                        "label": "object"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-24"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000058",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0005813",
+                        "label": "centrosome"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "GO:0044422",
+                        "label": "organelle part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0044424",
+                        "label": "intracellular part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0044446",
+                        "label": "intracellular organelle part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0030000",
+                        "label": "biological entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0044430",
+                        "label": "cytoskeletal part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0044464",
+                        "label": "cell part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000004",
+                        "label": "independent continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000000",
+                        "label": "anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000002",
+                        "label": "continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005575",
+                        "label": "cellular_component"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005813",
+                        "label": "centrosome"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000040",
+                        "label": "material entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005815",
+                        "label": "microtubule organizing center"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000006",
+                        "label": "material anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000003",
+                        "label": "connected anatomical structure"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000014",
+                        "label": "cell part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000030",
+                        "label": "object"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-24"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000060",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000002",
+                        "label": "direct assay evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000006",
+                        "label": "experimental evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "source",
+                        "value": "PMID:31296532"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-24"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000061",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000315",
+                        "label": "mutant phenotype evidence used in manual assertion"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000315",
+                        "label": "mutant phenotype evidence used in manual assertion"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000015",
+                        "label": "mutant phenotype evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000059",
+                        "label": "experimental phenotypic evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000006",
+                        "label": "experimental evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2019-09-24"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:1236758"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000063",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000002",
+                        "label": "direct assay evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000006",
+                        "label": "experimental evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2019-09-24"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:31296532"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000067",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "CHEBI:78686",
+                        "label": "Delta(4)-dafachronic acid"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "CHEBI:36586",
+                        "label": "carbonyl compound"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33595",
+                        "label": "cyclic compound"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:36587",
+                        "label": "organic oxo compound"
+                    },
+                    {
+                        "type": "class",
+                        "id": "obo:GOCHE_37527",
+                        "label": "substance with acid role"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33674",
+                        "label": "s-block molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33675",
+                        "label": "p-block molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33832",
+                        "label": "organic cyclic compound"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33635",
+                        "label": "polycyclic compound"
+                    },
+                    {
+                        "type": "class",
+                        "id": "obo:GOCHE_50906",
+                        "label": "substance with role role"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:3992",
+                        "label": "cyclic ketone"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:35341",
+                        "label": "steroid"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33285",
+                        "label": "heteroorganic entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:47909",
+                        "label": "3-oxo-Delta(4) steroid"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:36357",
+                        "label": "polyatomic entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:35789",
+                        "label": "oxo steroid"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:25384",
+                        "label": "monocarboxylic acid"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000004",
+                        "label": "independent continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:24651",
+                        "label": "hydroxides"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000002",
+                        "label": "continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:72695",
+                        "label": "organic molecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:23367",
+                        "label": "molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:50401",
+                        "label": "cholestanoid"
+                    },
+                    {
+                        "type": "class",
+                        "id": "obo:GOCHE_48705",
+                        "label": "substance with agonist role"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000040",
+                        "label": "material entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "obo:GOCHE_24432",
+                        "label": "substance with biological role role"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:36962",
+                        "label": "organochalcogen compound"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:37577",
+                        "label": "heteroatomic molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:18059",
+                        "label": "lipid"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33575",
+                        "label": "carboxylic acid"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:36963",
+                        "label": "organooxygen compound"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:51958",
+                        "label": "organic polycyclic compound"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33579",
+                        "label": "main group molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:131619",
+                        "label": "C27-steroid"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33608",
+                        "label": "hydrogen molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:51689",
+                        "label": "enone"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:51721",
+                        "label": "alpha,beta-unsaturated ketone"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:47788",
+                        "label": "3-oxo steroid"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:26764",
+                        "label": "steroid hormone"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:17087",
+                        "label": "ketone"
+                    },
+                    {
+                        "type": "class",
+                        "id": "obo:GOCHE_24621",
+                        "label": "substance with hormone role"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:78686",
+                        "label": "Delta(4)-dafachronic acid"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:78840",
+                        "label": "olefinic compound"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:64709",
+                        "label": "organic acid"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000030",
+                        "label": "object"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33582",
+                        "label": "carbon group molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "obo:GOCHE_51086",
+                        "label": "substance with chemical role role"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33304",
+                        "label": "chalcogen molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:35605",
+                        "label": "carbon oxoacid"
+                    },
+                    {
+                        "type": "class",
+                        "id": "obo:GOCHE_17891",
+                        "label": "substance with donor role"
+                    },
+                    {
+                        "type": "class",
+                        "id": "obo:GOCHE_52210",
+                        "label": "substance with pharmacological role role"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:47891",
+                        "label": "steroid acid"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:50860",
+                        "label": "organic molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:24431",
+                        "label": "chemical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "obo:GOCHE_39141",
+                        "label": "substance with Bronsted acid role"
+                    },
+                    {
+                        "type": "class",
+                        "id": "obo:GOCHE_33280",
+                        "label": "substance with molecular messenger role"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:25367",
+                        "label": "molecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:24833",
+                        "label": "oxoacid"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:78698",
+                        "label": "dafachronic acids"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:25806",
+                        "label": "oxygen molecular entity"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-24"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000073",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0005484",
+                        "label": "SNAP receptor activity"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "BFO:0000015",
+                        "label": "Process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000003",
+                        "label": "occurrent"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005488",
+                        "label": "binding"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0003674",
+                        "label": "Molecular Function"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005515",
+                        "label": "protein binding"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005484",
+                        "label": "SNAP receptor activity"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000074",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "WB:WBGene00005193",
+                        "label": "srg-36 Cele"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33582",
+                        "label": "carbon group molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33694",
+                        "label": "biomacromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:36357",
+                        "label": "polyatomic entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33695",
+                        "label": "chebi gene"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33675",
+                        "label": "p-block molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33579",
+                        "label": "main group molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "WB:WBGene00005193",
+                        "label": "srg-36 Cele"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000004",
+                        "label": "independent continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33839",
+                        "label": "macromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:50860",
+                        "label": "organic molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:24431",
+                        "label": "chemical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000002",
+                        "label": "continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:23367",
+                        "label": "molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000040",
+                        "label": "material entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000030",
+                        "label": "object"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000075",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000002",
+                        "label": "direct assay evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000006",
+                        "label": "experimental evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:138"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000076",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0023052",
+                        "label": "signaling"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "BFO:0000015",
+                        "label": "Process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000003",
+                        "label": "occurrent"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0008150",
+                        "label": "Biological Process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0023052",
+                        "label": "signaling"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000077",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000315",
+                        "label": "mutant phenotype evidence used in manual assertion"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000315",
+                        "label": "mutant phenotype evidence used in manual assertion"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000015",
+                        "label": "mutant phenotype evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000059",
+                        "label": "experimental phenotypic evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000006",
+                        "label": "experimental evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "source",
+                        "value": "PMID:138"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000078",
+                "type": [
+                    {
+                        "type": "complement",
+                        "filler": {
+                            "type": "class",
+                            "id": "GO:0005886",
+                            "label": "plasma membrane"
+                        }
+                    }
+                ],
+                "inferred-type": [
+                    {
+                        "type": "class",
+                        "id": "BFO:0000040",
+                        "label": "material entity"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "BFO:0000004",
+                        "label": "independent continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000002",
+                        "label": "continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000040",
+                        "label": "material entity"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000079",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000002",
+                        "label": "direct assay evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000006",
+                        "label": "experimental evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:139"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000080",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0003674",
+                        "label": "Molecular Function"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "BFO:0000015",
+                        "label": "Process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000003",
+                        "label": "occurrent"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0003674",
+                        "label": "Molecular Function"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000081",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "WB:WBGene00005194",
+                        "label": "srg-37 Cele"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33582",
+                        "label": "carbon group molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33694",
+                        "label": "biomacromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:36357",
+                        "label": "polyatomic entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33695",
+                        "label": "chebi gene"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33675",
+                        "label": "p-block molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33579",
+                        "label": "main group molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "WB:WBGene00005194",
+                        "label": "srg-37 Cele"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000004",
+                        "label": "independent continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33839",
+                        "label": "macromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:50860",
+                        "label": "organic molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:24431",
+                        "label": "chemical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000002",
+                        "label": "continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:23367",
+                        "label": "molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000040",
+                        "label": "material entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000030",
+                        "label": "object"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000082",
+                "type": [
+                    {
+                        "type": "complement",
+                        "filler": {
+                            "type": "class",
+                            "id": "GO:0071291",
+                            "label": "cellular response to selenium ion"
+                        }
+                    }
+                ],
+                "inferred-type": [
+                    {
+                        "type": "class",
+                        "id": "BFO:0000015",
+                        "label": "Process"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "BFO:0000015",
+                        "label": "Process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000003",
+                        "label": "occurrent"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000083",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000315",
+                        "label": "mutant phenotype evidence used in manual assertion"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000315",
+                        "label": "mutant phenotype evidence used in manual assertion"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000015",
+                        "label": "mutant phenotype evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000059",
+                        "label": "experimental phenotypic evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000006",
+                        "label": "experimental evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:141"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000084",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0005886",
+                        "label": "plasma membrane"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "CARO:0030000",
+                        "label": "biological entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0044464",
+                        "label": "cell part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000004",
+                        "label": "independent continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000000",
+                        "label": "anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000002",
+                        "label": "continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005575",
+                        "label": "cellular_component"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005886",
+                        "label": "plasma membrane"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000040",
+                        "label": "material entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000006",
+                        "label": "material anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000003",
+                        "label": "connected anatomical structure"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000014",
+                        "label": "cell part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0016020",
+                        "label": "membrane"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000030",
+                        "label": "object"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000085",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000002",
+                        "label": "direct assay evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000006",
+                        "label": "experimental evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "source",
+                        "value": "PMID:141"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000086",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "WB:WBGene00004053",
+                        "label": "tank-1 Cele"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33582",
+                        "label": "carbon group molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33694",
+                        "label": "biomacromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:36357",
+                        "label": "polyatomic entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33695",
+                        "label": "chebi gene"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33675",
+                        "label": "p-block molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33579",
+                        "label": "main group molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "WB:WBGene00004053",
+                        "label": "tank-1 Cele"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000004",
+                        "label": "independent continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33839",
+                        "label": "macromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:50860",
+                        "label": "organic molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:24431",
+                        "label": "chemical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000002",
+                        "label": "continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:23367",
+                        "label": "molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000040",
+                        "label": "material entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000030",
+                        "label": "object"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000087",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0005829",
+                        "label": "cytosol"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "GO:0044444",
+                        "label": "cytoplasmic part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0044424",
+                        "label": "intracellular part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0030000",
+                        "label": "biological entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0044464",
+                        "label": "cell part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000004",
+                        "label": "independent continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000000",
+                        "label": "anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000002",
+                        "label": "continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005575",
+                        "label": "cellular_component"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000040",
+                        "label": "material entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000006",
+                        "label": "material anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000003",
+                        "label": "connected anatomical structure"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000014",
+                        "label": "cell part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000030",
+                        "label": "object"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005829",
+                        "label": "cytosol"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000088",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000002",
+                        "label": "direct assay evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000006",
+                        "label": "experimental evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "source",
+                        "value": "PMID:153"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000089",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0003674",
+                        "label": "Molecular Function"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "BFO:0000015",
+                        "label": "Process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000003",
+                        "label": "occurrent"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0003674",
+                        "label": "Molecular Function"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000090",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "WB:WBGene00003168",
+                        "label": "mec-4 Cele"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33582",
+                        "label": "carbon group molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33694",
+                        "label": "biomacromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:36357",
+                        "label": "polyatomic entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33695",
+                        "label": "chebi gene"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33675",
+                        "label": "p-block molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "WB:WBGene00003168",
+                        "label": "mec-4 Cele"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33579",
+                        "label": "main group molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000004",
+                        "label": "independent continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33839",
+                        "label": "macromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:50860",
+                        "label": "organic molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:24431",
+                        "label": "chemical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000002",
+                        "label": "continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:23367",
+                        "label": "molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000040",
+                        "label": "material entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000030",
+                        "label": "object"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000091",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0070656",
+                        "label": "mechanoreceptor differentiation involved in mechanosensory epithelium regeneration"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "GO:0070656",
+                        "label": "mechanoreceptor differentiation involved in mechanosensory epithelium regeneration"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0048869",
+                        "label": "cellular developmental process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0009987",
+                        "label": "cellular process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000015",
+                        "label": "Process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000003",
+                        "label": "occurrent"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0032502",
+                        "label": "developmental process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0042490",
+                        "label": "mechanoreceptor differentiation"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0008150",
+                        "label": "Biological Process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0030182",
+                        "label": "neuron differentiation"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0030154",
+                        "label": "cell differentiation"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000092",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000315",
+                        "label": "mutant phenotype evidence used in manual assertion"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000315",
+                        "label": "mutant phenotype evidence used in manual assertion"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000015",
+                        "label": "mutant phenotype evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000059",
+                        "label": "experimental phenotypic evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000006",
+                        "label": "experimental evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:219"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000093",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0005886",
+                        "label": "plasma membrane"
+                    }
+                ],
+                "inferred-type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0005886",
+                        "label": "plasma membrane"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0097458",
+                        "label": "neuron part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0044441",
+                        "label": "ciliary part"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "GO:0044422",
+                        "label": "organelle part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0120038",
+                        "label": "plasma membrane bounded cell projection part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0030000",
+                        "label": "biological entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0044463",
+                        "label": "cell projection part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0044441",
+                        "label": "ciliary part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0044464",
+                        "label": "cell part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000004",
+                        "label": "independent continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000000",
+                        "label": "anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000002",
+                        "label": "continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005575",
+                        "label": "cellular_component"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005886",
+                        "label": "plasma membrane"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000040",
+                        "label": "material entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000006",
+                        "label": "material anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000003",
+                        "label": "connected anatomical structure"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000014",
+                        "label": "cell part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0097458",
+                        "label": "neuron part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0016020",
+                        "label": "membrane"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000030",
+                        "label": "object"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000094",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000002",
+                        "label": "direct assay evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000006",
+                        "label": "experimental evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:219"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000095",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "WBbt:0003679",
+                        "label": "neuron"
+                    }
+                ],
+                "inferred-type": [
+                    {
+                        "type": "class",
+                        "id": "UBERON:0001062",
+                        "label": "anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "WBbt:0003679",
+                        "label": "neuron"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CL:0000540",
+                        "label": "neuron"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "CARO:0030000",
+                        "label": "biological entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000000",
+                        "label": "anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CL:0002319",
+                        "label": "neural cell"
+                    },
+                    {
+                        "type": "class",
+                        "id": "UBERON:0001062",
+                        "label": "anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "WBbt:0003679",
+                        "label": "neuron"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005623",
+                        "label": "cell"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CL:0000255",
+                        "label": "eukaryotic cell"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CL:0000211",
+                        "label": "electrically active cell"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000006",
+                        "label": "material anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000003",
+                        "label": "connected anatomical structure"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CL:0002371",
+                        "label": "somatic cell"
+                    },
+                    {
+                        "type": "class",
+                        "id": "WBbt:0000100",
+                        "label": "C. elegans Cell and Anatomy"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CL:0000393",
+                        "label": "electrically responsive cell"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000030",
+                        "label": "object"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000004",
+                        "label": "independent continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CL:0000404",
+                        "label": "electrically signaling cell"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000002",
+                        "label": "continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CL:0000548",
+                        "label": "animal cell"
+                    },
+                    {
+                        "type": "class",
+                        "id": "WBbt:0004017",
+                        "label": "Cell"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005575",
+                        "label": "cellular_component"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CL:0000003",
+                        "label": "native cell"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000040",
+                        "label": "material entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CL:0000000",
+                        "label": "cell"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CL:0000540",
+                        "label": "neuron"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000096",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000002",
+                        "label": "direct assay evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000006",
+                        "label": "experimental evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "source",
+                        "value": "PMID:219"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000097",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0005929",
+                        "label": "cilium"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "GO:0043226",
+                        "label": "organelle"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0042995",
+                        "label": "cell projection"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0120025",
+                        "label": "plasma membrane bounded cell projection"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0030000",
+                        "label": "biological entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0044464",
+                        "label": "cell part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000004",
+                        "label": "independent continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000000",
+                        "label": "anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000002",
+                        "label": "continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005575",
+                        "label": "cellular_component"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000040",
+                        "label": "material entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000006",
+                        "label": "material anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000003",
+                        "label": "connected anatomical structure"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000014",
+                        "label": "cell part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005929",
+                        "label": "cilium"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000030",
+                        "label": "object"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000098",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000002",
+                        "label": "direct assay evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000006",
+                        "label": "experimental evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:223"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000099",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0003674",
+                        "label": "Molecular Function"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "BFO:0000015",
+                        "label": "Process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000003",
+                        "label": "occurrent"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0003674",
+                        "label": "Molecular Function"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000100",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "WB:WBGene00000002",
+                        "label": "aat-1 Cele"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33582",
+                        "label": "carbon group molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33694",
+                        "label": "biomacromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:36357",
+                        "label": "polyatomic entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33695",
+                        "label": "chebi gene"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33675",
+                        "label": "p-block molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "WB:WBGene00000002",
+                        "label": "aat-1 Cele"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33579",
+                        "label": "main group molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000004",
+                        "label": "independent continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33839",
+                        "label": "macromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:50860",
+                        "label": "organic molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:24431",
+                        "label": "chemical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000002",
+                        "label": "continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:23367",
+                        "label": "molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000040",
+                        "label": "material entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000030",
+                        "label": "object"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000101",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0010267",
+                        "label": "production of ta-siRNAs involved in RNA interference"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "GO:0044238",
+                        "label": "primary metabolic process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0044237",
+                        "label": "cellular metabolic process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0071704",
+                        "label": "organic substance metabolic process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0008152",
+                        "label": "metabolic process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:1901360",
+                        "label": "organic cyclic compound metabolic process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0070918",
+                        "label": "production of small RNA involved in gene silencing by RNA"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0008150",
+                        "label": "Biological Process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0046483",
+                        "label": "heterocycle metabolic process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0006396",
+                        "label": "RNA processing"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0009987",
+                        "label": "cellular process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000015",
+                        "label": "Process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000003",
+                        "label": "occurrent"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0030422",
+                        "label": "production of siRNA involved in RNA interference"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0010267",
+                        "label": "production of ta-siRNAs involved in RNA interference"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0043170",
+                        "label": "macromolecule metabolic process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0006139",
+                        "label": "nucleobase-containing compound metabolic process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0016070",
+                        "label": "RNA metabolic process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0090304",
+                        "label": "nucleic acid metabolic process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0006725",
+                        "label": "cellular aromatic compound metabolic process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0031050",
+                        "label": "dsRNA processing"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0034641",
+                        "label": "cellular nitrogen compound metabolic process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0006807",
+                        "label": "nitrogen compound metabolic process"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000102",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000315",
+                        "label": "mutant phenotype evidence used in manual assertion"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000315",
+                        "label": "mutant phenotype evidence used in manual assertion"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000015",
+                        "label": "mutant phenotype evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000059",
+                        "label": "experimental phenotypic evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000006",
+                        "label": "experimental evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:1236758"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000104",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "WB:WBGene00000003",
+                        "label": "aat-2 Cele"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33582",
+                        "label": "carbon group molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33694",
+                        "label": "biomacromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:36357",
+                        "label": "polyatomic entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33695",
+                        "label": "chebi gene"
+                    },
+                    {
+                        "type": "class",
+                        "id": "WB:WBGene00000003",
+                        "label": "aat-2 Cele"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33675",
+                        "label": "p-block molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33579",
+                        "label": "main group molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000004",
+                        "label": "independent continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33839",
+                        "label": "macromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:50860",
+                        "label": "organic molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:24431",
+                        "label": "chemical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000002",
+                        "label": "continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:23367",
+                        "label": "molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000040",
+                        "label": "material entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000030",
+                        "label": "object"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000105",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0005886",
+                        "label": "plasma membrane"
+                    }
+                ],
+                "inferred-type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0005886",
+                        "label": "plasma membrane"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0044441",
+                        "label": "ciliary part"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "GO:0044422",
+                        "label": "organelle part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0120038",
+                        "label": "plasma membrane bounded cell projection part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0030000",
+                        "label": "biological entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0044463",
+                        "label": "cell projection part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0044441",
+                        "label": "ciliary part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0044464",
+                        "label": "cell part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000004",
+                        "label": "independent continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000000",
+                        "label": "anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000002",
+                        "label": "continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005575",
+                        "label": "cellular_component"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005886",
+                        "label": "plasma membrane"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000040",
+                        "label": "material entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000006",
+                        "label": "material anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000003",
+                        "label": "connected anatomical structure"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000014",
+                        "label": "cell part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0016020",
+                        "label": "membrane"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000030",
+                        "label": "object"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000106",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000002",
+                        "label": "direct assay evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000006",
+                        "label": "experimental evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "source",
+                        "value": "PMID:138"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000107",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0005929",
+                        "label": "cilium"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "GO:0043226",
+                        "label": "organelle"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0042995",
+                        "label": "cell projection"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0120025",
+                        "label": "plasma membrane bounded cell projection"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0030000",
+                        "label": "biological entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0044464",
+                        "label": "cell part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000004",
+                        "label": "independent continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000000",
+                        "label": "anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000002",
+                        "label": "continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005575",
+                        "label": "cellular_component"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000040",
+                        "label": "material entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000006",
+                        "label": "material anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000003",
+                        "label": "connected anatomical structure"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000014",
+                        "label": "cell part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005929",
+                        "label": "cilium"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000030",
+                        "label": "object"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000108",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000002",
+                        "label": "direct assay evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000006",
+                        "label": "experimental evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:138"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000109",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0005215",
+                        "label": "transporter activity"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "BFO:0000015",
+                        "label": "Process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000003",
+                        "label": "occurrent"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005215",
+                        "label": "transporter activity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0003674",
+                        "label": "Molecular Function"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000110",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "WB:WBGene00000004",
+                        "label": "aat-3 Cele"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33582",
+                        "label": "carbon group molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33694",
+                        "label": "biomacromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:36357",
+                        "label": "polyatomic entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33695",
+                        "label": "chebi gene"
+                    },
+                    {
+                        "type": "class",
+                        "id": "WB:WBGene00000004",
+                        "label": "aat-3 Cele"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33675",
+                        "label": "p-block molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33579",
+                        "label": "main group molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000004",
+                        "label": "independent continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33839",
+                        "label": "macromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:50860",
+                        "label": "organic molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:24431",
+                        "label": "chemical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000002",
+                        "label": "continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:23367",
+                        "label": "molecular entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000040",
+                        "label": "material entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000030",
+                        "label": "object"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000111",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000002",
+                        "label": "direct assay evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000006",
+                        "label": "experimental evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:138"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000112",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:1900285",
+                        "label": "regulation of cellotriose transport"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "BFO:0000015",
+                        "label": "Process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000003",
+                        "label": "occurrent"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0050789",
+                        "label": "regulation of biological process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0032879",
+                        "label": "regulation of localization"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0008150",
+                        "label": "Biological Process"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0065007",
+                        "label": "biological regulation"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:1900285",
+                        "label": "regulation of cellotriose transport"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0051049",
+                        "label": "regulation of transport"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000113",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000315",
+                        "label": "mutant phenotype evidence used in manual assertion"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000315",
+                        "label": "mutant phenotype evidence used in manual assertion"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000015",
+                        "label": "mutant phenotype evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000059",
+                        "label": "experimental phenotypic evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000006",
+                        "label": "experimental evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "source",
+                        "value": "PMID:1236758"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000114",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0098590",
+                        "label": "plasma membrane region"
+                    }
+                ],
+                "inferred-type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0098590",
+                        "label": "plasma membrane region"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0097458",
+                        "label": "neuron part"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "GO:0044425",
+                        "label": "membrane part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0044459",
+                        "label": "plasma membrane part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0030000",
+                        "label": "biological entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0044464",
+                        "label": "cell part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000004",
+                        "label": "independent continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0098590",
+                        "label": "plasma membrane region"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000000",
+                        "label": "anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000002",
+                        "label": "continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005575",
+                        "label": "cellular_component"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000040",
+                        "label": "material entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000006",
+                        "label": "material anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000003",
+                        "label": "connected anatomical structure"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000014",
+                        "label": "cell part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0097458",
+                        "label": "neuron part"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0016020",
+                        "label": "membrane"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000030",
+                        "label": "object"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000115",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000002",
+                        "label": "direct assay evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000006",
+                        "label": "experimental evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:138"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000116",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "WBbt:0005394",
+                        "label": "amphid neuron"
+                    }
+                ],
+                "inferred-type": [
+                    {
+                        "type": "class",
+                        "id": "UBERON:0001062",
+                        "label": "anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CL:0000540",
+                        "label": "neuron"
+                    },
+                    {
+                        "type": "class",
+                        "id": "WBbt:0005394",
+                        "label": "amphid neuron"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "CARO:0030000",
+                        "label": "biological entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000000",
+                        "label": "anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CL:0002319",
+                        "label": "neural cell"
+                    },
+                    {
+                        "type": "class",
+                        "id": "UBERON:0001062",
+                        "label": "anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "WBbt:0003679",
+                        "label": "neuron"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005623",
+                        "label": "cell"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CL:0000255",
+                        "label": "eukaryotic cell"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CL:0000211",
+                        "label": "electrically active cell"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000006",
+                        "label": "material anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "WBbt:0005394",
+                        "label": "amphid neuron"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000003",
+                        "label": "connected anatomical structure"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CL:0002371",
+                        "label": "somatic cell"
+                    },
+                    {
+                        "type": "class",
+                        "id": "WBbt:0000100",
+                        "label": "C. elegans Cell and Anatomy"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CL:0000393",
+                        "label": "electrically responsive cell"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000030",
+                        "label": "object"
+                    },
+                    {
+                        "type": "class",
+                        "id": "WBbt:0006816",
+                        "label": "ciliated neuron"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000004",
+                        "label": "independent continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CL:0000404",
+                        "label": "electrically signaling cell"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000002",
+                        "label": "continuant"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CL:0000548",
+                        "label": "animal cell"
+                    },
+                    {
+                        "type": "class",
+                        "id": "WBbt:0004017",
+                        "label": "Cell"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000001",
+                        "label": "entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005575",
+                        "label": "cellular_component"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CL:0000003",
+                        "label": "native cell"
+                    },
+                    {
+                        "type": "class",
+                        "id": "BFO:0000040",
+                        "label": "material entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CL:0000000",
+                        "label": "cell"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CL:0000540",
+                        "label": "neuron"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5d88482400000052/5d88482400000117",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "inferred-type-with-all": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000002",
+                        "label": "direct assay evidence"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    },
+                    {
+                        "type": "class",
+                        "id": "ECO:0000006",
+                        "label": "experimental evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:138"
+                    }
+                ]
+            }
+        ],
+        "facts": [
+            {
+                "subject": "gomodel:5d88482400000052/5d88482400000082",
+                "property": "BFO:0000066",
+                "property-label": "occurs in",
+                "object": "gomodel:5d88482400000052/5d88482400000084",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:5d88482400000052/5d88482400000085",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:5d88482400000052/5d88482400000073",
+                "property": "RO:0002333",
+                "property-label": "enabled by",
+                "object": "gomodel:5d88482400000052/5d88482400000074",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:5d88482400000052/5d88482400000075",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:5d88482400000052/5d88482400000053",
+                "property": "BFO:0000066",
+                "property-label": "occurs in",
+                "object": "gomodel:5d88482400000052/5d88482400000058",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:5d88482400000052/5d88482400000063",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-24"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:5d88482400000052/5d88482400000105",
+                "property": "BFO:0000050",
+                "property-label": "part of",
+                "object": "gomodel:5d88482400000052/5d88482400000107",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:5d88482400000052/5d88482400000108",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:5d88482400000052/5d88482400000089",
+                "property": "RO:0002333",
+                "property-label": "enabled by",
+                "object": "gomodel:5d88482400000052/5d88482400000090",
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:5d88482400000052/5d88482400000104",
+                "property": "RO:0001025",
+                "property-label": "located_in",
+                "object": "gomodel:5d88482400000052/5d88482400000105",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:5d88482400000052/5d88482400000106",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:5d88482400000052/5d88482400000073",
+                "property": "BFO:0000050",
+                "property-label": "part of",
+                "object": "gomodel:5d88482400000052/5d88482400000076",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:5d88482400000052/5d88482400000077",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:5d88482400000052/5d88482400000073",
+                "property": "BFO:0000066",
+                "property-label": "occurs in",
+                "object": "gomodel:5d88482400000052/5d88482400000078",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:5d88482400000052/5d88482400000079",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:5d88482400000052/5d88482400000114",
+                "property": "BFO:0000050",
+                "property-label": "part of",
+                "object": "gomodel:5d88482400000052/5d88482400000116",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:5d88482400000052/5d88482400000117",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:5d88482400000052/5d88482400000086",
+                "property": "RO:0001025",
+                "property-label": "located_in",
+                "object": "gomodel:5d88482400000052/5d88482400000087",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:5d88482400000052/5d88482400000088",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:5d88482400000052/5d88482400000091",
+                "property": "BFO:0000066",
+                "property-label": "occurs in",
+                "object": "gomodel:5d88482400000052/5d88482400000093",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:5d88482400000052/5d88482400000094",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:5d88482400000052/5d88482400000080",
+                "property": "RO:0002333",
+                "property-label": "enabled by",
+                "object": "gomodel:5d88482400000052/5d88482400000081",
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:5d88482400000052/5d88482400000109",
+                "property": "RO:0002333",
+                "property-label": "enabled by",
+                "object": "gomodel:5d88482400000052/5d88482400000110",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:5d88482400000052/5d88482400000111",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:5d88482400000052/5d88482400000099",
+                "property": "RO:0002418",
+                "property-label": "causally upstream of or within",
+                "object": "gomodel:5d88482400000052/5d88482400000101",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:5d88482400000052/5d88482400000102",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:5d88482400000052/5d88482400000093",
+                "property": "BFO:0000050",
+                "property-label": "part of",
+                "object": "gomodel:5d88482400000052/5d88482400000097",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:5d88482400000052/5d88482400000098",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:5d88482400000052/5d88482400000093",
+                "property": "BFO:0000050",
+                "property-label": "part of",
+                "object": "gomodel:5d88482400000052/5d88482400000095",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:5d88482400000052/5d88482400000096",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:5d88482400000052/5d88482400000080",
+                "property": "RO:0002418",
+                "property-label": "causally upstream of or within",
+                "object": "gomodel:5d88482400000052/5d88482400000082",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:5d88482400000052/5d88482400000083",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:5d88482400000052/5d88482400000053",
+                "property": "RO:0002333",
+                "property-label": "enabled by",
+                "object": "gomodel:5d88482400000052/5d88482400000054",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:5d88482400000052/5d88482400000060",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:5d88482400000052/5d88482400000061",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-24"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:5d88482400000052/5d88482400000109",
+                "property": "BFO:0000050",
+                "property-label": "part of",
+                "object": "gomodel:5d88482400000052/5d88482400000112",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:5d88482400000052/5d88482400000113",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:5d88482400000052/5d88482400000089",
+                "property": "RO:0002418",
+                "property-label": "causally upstream of or within",
+                "object": "gomodel:5d88482400000052/5d88482400000091",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:5d88482400000052/5d88482400000092",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:5d88482400000052/5d88482400000099",
+                "property": "RO:0002333",
+                "property-label": "enabled by",
+                "object": "gomodel:5d88482400000052/5d88482400000100",
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:5d88482400000052/5d88482400000109",
+                "property": "BFO:0000066",
+                "property-label": "occurs in",
+                "object": "gomodel:5d88482400000052/5d88482400000114",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:5d88482400000052/5d88482400000115",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2019-09-25"
+                    }
+                ]
+            }
+        ],
+        "annotations": [
+            {
+                "key": "state",
+                "value": "development"
+            },
+            {
+                "key": "contributor",
+                "value": "http://orcid.org/0000-0002-1706-4196"
+            },
+            {
+                "key": "date",
+                "value": "2019-09-25"
+            },
+            {
+                "key": "title",
+                "value": "enabled by mpk-1 Cele"
+            },
+            {
+                "key": "providedBy",
+                "value": "http://www.wormbase.org"
+            }
+        ]
+    }
+}

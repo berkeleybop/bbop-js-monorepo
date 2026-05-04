@@ -1,0 +1,3120 @@
+{
+    "packet-id": "57b88f654855a12e",
+    "provided-by": [],
+    "is-reasoned": false,
+    "intention": "query",
+    "signal": "rebuild",
+    "message-type": "success",
+    "message": "success",
+    "data": {
+        "modified-p": false,
+        "id": "gomodel:596ef51500000088",
+        "individuals": [
+            {
+                "id": "gomodel:596ef51500000088/5b91dbd100000465",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "UniProtKB:P35222",
+                        "label": "CTNNB1 Hsap"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33695",
+                        "label": "chebi information biomacromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:24431",
+                        "label": "chemical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:36080",
+                        "label": "chebi protein"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-09-30"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5b91dbd100000466",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "UniProtKB:P35222",
+                        "label": "CTNNB1 Hsap"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33695",
+                        "label": "chebi information biomacromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:24431",
+                        "label": "chemical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:36080",
+                        "label": "chebi protein"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2018-09-30"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5b91dbd100000467",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "UniProtKB:O15169",
+                        "label": "AXIN1 Hsap"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33695",
+                        "label": "chebi information biomacromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:24431",
+                        "label": "chemical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:36080",
+                        "label": "chebi protein"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2018-09-30"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5b91dbd100000469",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000353",
+                        "label": "physical interaction evidence used in manual assertion"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "with",
+                        "value": "UniProtKB:O70239"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-09-30"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:10330181"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5b91dbd100000470",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2018-09-30"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:11955436"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5b91dbd100000471",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000315",
+                        "label": "mutant phenotype evidence used in manual assertion"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-09-30"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:11955436"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5b91dbd100000472",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-09-30"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:9065402"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5b91dbd100000475",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0090090",
+                        "label": "negative regulation of canonical Wnt signaling pathway"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0008150",
+                        "label": "Biological Process"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "hint-layout-y",
+                        "value": "287"
+                    },
+                    {
+                        "key": "hint-layout-x",
+                        "value": "896.625"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-9074-3507"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-10-02"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://geneontology.org"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5b91dbd100000477",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000315",
+                        "label": "mutant phenotype evidence used in manual assertion"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "source",
+                        "value": "PMID:11955436"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-10-01"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://geneontology.org"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-9074-3507"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5b91dbd100000478",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000315",
+                        "label": "mutant phenotype evidence used in manual assertion"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-9074-3507"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-10-01"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://geneontology.org"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:10644691"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5b91dbd100000479",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000315",
+                        "label": "mutant phenotype evidence used in manual assertion"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2018-10-01"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://geneontology.org"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-9074-3507"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:22899650"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5b91dbd100000505",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-9074-3507"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://geneontology.org"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:11029007"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-10-02"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5b91dbd100000514",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0005886",
+                        "label": "plasma membrane"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "UBERON:0001062",
+                        "label": "anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0110165",
+                        "label": "cellular anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005575",
+                        "label": "Cellular Component"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000000",
+                        "label": "anatomical entity"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-10-02"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5b91dbd100000515",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000318",
+                        "label": "biological aspect of ancestor evidence used in manual assertion"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "with",
+                        "value": "PANTHER:PTN000139394"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "source",
+                        "value": "GO_REF:0000033"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-10-02"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000111",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0015026",
+                        "label": "coreceptor activity"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0003674",
+                        "label": "Molecular Function"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-9074-3507"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://geneontology.org"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-10-02"
+                    },
+                    {
+                        "key": "hint-layout-y",
+                        "value": "215"
+                    },
+                    {
+                        "key": "hint-layout-x",
+                        "value": "305"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-7073-9172"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000112",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "UniProtKB:O75581",
+                        "label": "LRP6 Hsap"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33695",
+                        "label": "chebi information biomacromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:24431",
+                        "label": "chemical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:36080",
+                        "label": "chebi protein"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "hint-layout-y",
+                        "value": "75"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "hint-layout-x",
+                        "value": "468.75"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-09-24"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000113",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2017-07-19"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:11029007"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000117",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0030159",
+                        "label": "signaling receptor complex adaptor activity"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0003674",
+                        "label": "Molecular Function"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2018-10-02"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://geneontology.org"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-9074-3507"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    },
+                    {
+                        "key": "hint-layout-y",
+                        "value": "491"
+                    },
+                    {
+                        "key": "hint-layout-x",
+                        "value": "136"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000118",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "UniProtKB:O14640",
+                        "label": "DVL1 Hsap"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33695",
+                        "label": "chebi information biomacromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:24431",
+                        "label": "chemical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:36080",
+                        "label": "chebi protein"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-09-24"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "hint-layout-y",
+                        "value": "75"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    },
+                    {
+                        "key": "hint-layout-x",
+                        "value": "3225"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000119",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000353",
+                        "label": "physical interaction evidence used in manual assertion"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "with",
+                        "value": "UniProtKB:O70239"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2017-07-19"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:10330181"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000128",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0003713",
+                        "label": "transcription coactivator activity"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0003674",
+                        "label": "Molecular Function"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2018-10-02"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "hint-layout-y",
+                        "value": "553"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://geneontology.org"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-9074-3507"
+                    },
+                    {
+                        "key": "hint-layout-x",
+                        "value": "1222"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000142",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0005829",
+                        "label": "cytosol"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "UBERON:0001062",
+                        "label": "anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0110165",
+                        "label": "cellular anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005575",
+                        "label": "Cellular Component"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000000",
+                        "label": "anatomical entity"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "hint-layout-x",
+                        "value": "2831.25"
+                    },
+                    {
+                        "key": "hint-layout-y",
+                        "value": "75"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-09-24"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000143",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000318",
+                        "label": "biological aspect of ancestor evidence used in manual assertion"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "source",
+                        "value": "GO_REF:0000033"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "with",
+                        "value": "PANTHER:PTN000093945"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2017-07-19"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000144",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0005634",
+                        "label": "nucleus"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "UBERON:0001062",
+                        "label": "anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0110165",
+                        "label": "cellular anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005575",
+                        "label": "Cellular Component"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000000",
+                        "label": "anatomical entity"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-09-24"
+                    },
+                    {
+                        "key": "hint-layout-x",
+                        "value": "7162.5"
+                    },
+                    {
+                        "key": "hint-layout-y",
+                        "value": "75"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000145",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:10980594"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2017-07-19"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000146",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0005886",
+                        "label": "plasma membrane"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "UBERON:0001062",
+                        "label": "anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0110165",
+                        "label": "cellular anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005575",
+                        "label": "Cellular Component"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000000",
+                        "label": "anatomical entity"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-09-24"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    },
+                    {
+                        "key": "hint-layout-x",
+                        "value": "862.5"
+                    },
+                    {
+                        "key": "hint-layout-y",
+                        "value": "75"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000147",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:16263759"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2017-07-19"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000166",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0030877",
+                        "label": "beta-catenin destruction complex"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0005575",
+                        "label": "Cellular Component"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0032991",
+                        "label": "protein-containing complex"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    },
+                    {
+                        "key": "hint-layout-y",
+                        "value": "263"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-9074-3507"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-10-02"
+                    },
+                    {
+                        "key": "hint-layout-x",
+                        "value": "672"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://geneontology.org"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000167",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "UniProtKB:O15169",
+                        "label": "AXIN1 Hsap"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33695",
+                        "label": "chebi information biomacromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:24431",
+                        "label": "chemical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:36080",
+                        "label": "chebi protein"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2018-09-30"
+                    },
+                    {
+                        "key": "hint-layout-x",
+                        "value": "639"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    },
+                    {
+                        "key": "hint-layout-y",
+                        "value": "481"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000168",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "UniProtKB:P25054",
+                        "label": "APC Hsap"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33695",
+                        "label": "chebi information biomacromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:24431",
+                        "label": "chemical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:36080",
+                        "label": "chebi protein"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-09-24"
+                    },
+                    {
+                        "key": "hint-layout-y",
+                        "value": "75"
+                    },
+                    {
+                        "key": "hint-layout-x",
+                        "value": "1650"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000169",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "UniProtKB:P49841",
+                        "label": "GSK3B Hsap"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33695",
+                        "label": "chebi information biomacromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:24431",
+                        "label": "chemical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:36080",
+                        "label": "chebi protein"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-09-24"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "hint-layout-x",
+                        "value": "1256.25"
+                    },
+                    {
+                        "key": "hint-layout-y",
+                        "value": "75"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000170",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "UniProtKB:P48729",
+                        "label": "CSNK1A1 Hsap"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33695",
+                        "label": "chebi information biomacromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:24431",
+                        "label": "chemical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:36080",
+                        "label": "chebi protein"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2018-09-24"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "hint-layout-x",
+                        "value": "2043.75"
+                    },
+                    {
+                        "key": "hint-layout-y",
+                        "value": "75"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000171",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:11955436"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2017-07-19"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000172",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:16188939"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2017-07-19"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000173",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2017-07-19"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:16188939"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000174",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2017-07-19"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:16188939"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000175",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0004674",
+                        "label": "protein serine/threonine kinase activity"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0003674",
+                        "label": "Molecular Function"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "hint-layout-y",
+                        "value": "511"
+                    },
+                    {
+                        "key": "hint-layout-x",
+                        "value": "570"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-10-02"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://geneontology.org"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-9074-3507"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000178",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "source",
+                        "value": "PMID:11955436"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2017-07-19"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000180",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0005829",
+                        "label": "cytosol"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "UBERON:0001062",
+                        "label": "anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0110165",
+                        "label": "cellular anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005575",
+                        "label": "Cellular Component"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000000",
+                        "label": "anatomical entity"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "hint-layout-x",
+                        "value": "5587.5"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-09-24"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "hint-layout-y",
+                        "value": "75"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000181",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000314",
+                        "label": "direct assay evidence used in manual assertion"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2017-07-19"
+                    },
+                    {
+                        "key": "source",
+                        "value": "GO_REF:0000052"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000182",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:1901800",
+                        "label": "positive regulation of proteasomal protein catabolic process"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0008150",
+                        "label": "Biological Process"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-9074-3507"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "hint-layout-y",
+                        "value": "483"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://geneontology.org"
+                    },
+                    {
+                        "key": "hint-layout-x",
+                        "value": "891"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-10-02"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000183",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "UniProtKB:P35222",
+                        "label": "CTNNB1 Hsap"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33695",
+                        "label": "chebi information biomacromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:24431",
+                        "label": "chemical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:36080",
+                        "label": "chebi protein"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "hint-layout-y",
+                        "value": "163"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-09-24"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "hint-layout-x",
+                        "value": "1398"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/596ef51500000184",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0060070",
+                        "label": "canonical Wnt signaling pathway"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0008150",
+                        "label": "Biological Process"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "hint-layout-x",
+                        "value": "949"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-10-02"
+                    },
+                    {
+                        "key": "hint-layout-y",
+                        "value": "45"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-9074-3507"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://geneontology.org"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5970219a00000217",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0048018",
+                        "label": "receptor ligand activity"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0003674",
+                        "label": "Molecular Function"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-9074-3507"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "hint-layout-x",
+                        "value": "10"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://geneontology.org"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-10-02"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5970219a00000220",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0042813",
+                        "label": "Wnt-activated receptor activity"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0003674",
+                        "label": "Molecular Function"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2018-10-01"
+                    },
+                    {
+                        "key": "hint-layout-y",
+                        "value": "234"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-9074-3507"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://geneontology.org"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    },
+                    {
+                        "key": "hint-layout-x",
+                        "value": "7"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5970219a00000221",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "UniProtKB:Q9UP38",
+                        "label": "FZD1 Hsap"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33695",
+                        "label": "chebi information biomacromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:24431",
+                        "label": "chemical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:36080",
+                        "label": "chebi protein"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "hint-layout-y",
+                        "value": "75"
+                    },
+                    {
+                        "key": "hint-layout-x",
+                        "value": "6768.75"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-09-24"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5970219a00000222",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000303",
+                        "label": "author statement without traceable support used in manual assertion"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:23461676"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2017-07-24"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5970219a00000232",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "UniProtKB:Q9UP38",
+                        "label": "FZD1 Hsap"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33695",
+                        "label": "chebi information biomacromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:24431",
+                        "label": "chemical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:36080",
+                        "label": "chebi protein"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "hint-layout-x",
+                        "value": "4800"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "hint-layout-y",
+                        "value": "75"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-09-24"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5970219a00000236",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000353",
+                        "label": "physical interaction evidence used in manual assertion"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "source",
+                        "value": "PMID:10557084"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2017-07-24"
+                    },
+                    {
+                        "key": "with",
+                        "value": "UniProtKB:Q9UP38"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5970219a00000239",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000094",
+                        "label": "biological assay evidence"
+                    }
+                ],
+                "root-type": [],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:10557084"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2017-07-24"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5970219a00000241",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000094",
+                        "label": "biological assay evidence"
+                    }
+                ],
+                "root-type": [],
+                "annotations": [
+                    {
+                        "key": "date",
+                        "value": "2017-07-24"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:14739301"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5970219a00000243",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000094",
+                        "label": "biological assay evidence"
+                    }
+                ],
+                "root-type": [],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2017-07-24"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:11113207"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5970219a00000244",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000094",
+                        "label": "biological assay evidence"
+                    }
+                ],
+                "root-type": [],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2017-07-24"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:10644691"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5970219a00000246",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000015",
+                        "label": "mutant phenotype evidence"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "source",
+                        "value": "PMID:11955436"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2017-07-24"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5970219a00000248",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000353",
+                        "label": "physical interaction evidence used in manual assertion"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "source",
+                        "value": "PMID:10557084"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2017-07-25"
+                    },
+                    {
+                        "key": "with",
+                        "value": "UniProtKB:Q9UP38"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5970219a00000250",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000353",
+                        "label": "physical interaction evidence used in manual assertion"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "with",
+                        "value": "UniProtKB:O70239"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2017-07-25"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:10330181"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5970219a00000678",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "GO:0005615",
+                        "label": "extracellular space"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "UBERON:0001062",
+                        "label": "anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0110165",
+                        "label": "cellular anatomical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "GO:0005575",
+                        "label": "Cellular Component"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CARO:0000000",
+                        "label": "anatomical entity"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "hint-layout-x",
+                        "value": "4012.5"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-09-24"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    },
+                    {
+                        "key": "hint-layout-y",
+                        "value": "75"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5970219a00000679",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000318",
+                        "label": "biological aspect of ancestor evidence used in manual assertion"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "source",
+                        "value": "GO_REF:0000033"
+                    },
+                    {
+                        "key": "with",
+                        "value": "PANTHER:PTN000246517"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2017-07-31"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5993df9e00000344",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "UniProtKB:P56703",
+                        "label": "WNT3 Hsap"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "CHEBI:33695",
+                        "label": "chebi information biomacromolecule"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:24431",
+                        "label": "chemical entity"
+                    },
+                    {
+                        "type": "class",
+                        "id": "CHEBI:36080",
+                        "label": "chebi protein"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "hint-layout-x",
+                        "value": "4406.25"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-09-24"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "hint-layout-y",
+                        "value": "75"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:596ef51500000088/5993df9e00000345",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000353",
+                        "label": "physical interaction evidence used in manual assertion"
+                    }
+                ],
+                "root-type": [
+                    {
+                        "type": "class",
+                        "id": "ECO:0000000",
+                        "label": "evidence"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "source",
+                        "value": "PMID:10557084"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2017-08-22"
+                    },
+                    {
+                        "key": "with",
+                        "value": "UniProtKB:Q9UP38"
+                    }
+                ]
+            }
+        ],
+        "facts": [
+            {
+                "subject": "gomodel:596ef51500000088/596ef51500000175",
+                "property": "RO:0002233",
+                "property-label": "has input",
+                "object": "gomodel:596ef51500000088/5b91dbd100000465",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/5b91dbd100000470",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-09-30"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/596ef51500000128",
+                "property": "BFO:0000050",
+                "property-label": "part of",
+                "object": "gomodel:596ef51500000088/596ef51500000184",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/5970219a00000244",
+                        "value-type": "IRI"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/596ef51500000111",
+                "property": "BFO:0000066",
+                "property-label": "occurs in",
+                "object": "gomodel:596ef51500000088/596ef51500000146",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/596ef51500000147",
+                        "value-type": "IRI"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/5970219a00000217",
+                "property": "RO:0002233",
+                "property-label": "has input",
+                "object": "gomodel:596ef51500000088/5970219a00000232",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/5970219a00000248",
+                        "value-type": "IRI"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/5970219a00000217",
+                "property": "RO:0002629",
+                "property-label": "directly positively regulates",
+                "object": "gomodel:596ef51500000088/596ef51500000111",
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-9074-3507"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-10-01"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://geneontology.org"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/596ef51500000117",
+                "property": "BFO:0000066",
+                "property-label": "occurs in",
+                "object": "gomodel:596ef51500000088/596ef51500000142",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/596ef51500000143",
+                        "value-type": "IRI"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/596ef51500000166",
+                "property": "BFO:0000051",
+                "property-label": "has part",
+                "object": "gomodel:596ef51500000088/596ef51500000167",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/596ef51500000173",
+                        "value-type": "IRI"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/596ef51500000111",
+                "property": "RO:0002629",
+                "property-label": "directly positively regulates",
+                "object": "gomodel:596ef51500000088/596ef51500000117",
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-9074-3507"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-10-01"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://geneontology.org"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/5970219a00000217",
+                "property": "RO:0002629",
+                "property-label": "directly positively regulates",
+                "object": "gomodel:596ef51500000088/5970219a00000220",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/5970219a00000236",
+                        "value-type": "IRI"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/596ef51500000175",
+                "property": "BFO:0000066",
+                "property-label": "occurs in",
+                "object": "gomodel:596ef51500000088/596ef51500000180",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/596ef51500000181",
+                        "value-type": "IRI"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/5970219a00000220",
+                "property": "RO:0002629",
+                "property-label": "directly positively regulates",
+                "object": "gomodel:596ef51500000088/596ef51500000117",
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "GOC:pt"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2017-09-11"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/596ef51500000117",
+                "property": "RO:0002233",
+                "property-label": "has input",
+                "object": "gomodel:596ef51500000088/5b91dbd100000467",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/5b91dbd100000469",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-09-30"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/596ef51500000182",
+                "property": "RO:0002233",
+                "property-label": "has input",
+                "object": "gomodel:596ef51500000088/5b91dbd100000466",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/5b91dbd100000471",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-09-30"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/596ef51500000182",
+                "property": "BFO:0000050",
+                "property-label": "part of",
+                "object": "gomodel:596ef51500000088/5b91dbd100000475",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/5b91dbd100000478",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/5b91dbd100000479",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-9074-3507"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-10-01"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://geneontology.org"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/596ef51500000111",
+                "property": "RO:0002333",
+                "property-label": "enabled by",
+                "object": "gomodel:596ef51500000088/596ef51500000112",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/596ef51500000113",
+                        "value-type": "IRI"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/596ef51500000117",
+                "property": "RO:0002333",
+                "property-label": "enabled by",
+                "object": "gomodel:596ef51500000088/596ef51500000118",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/596ef51500000119",
+                        "value-type": "IRI"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/596ef51500000111",
+                "property": "BFO:0000050",
+                "property-label": "part of",
+                "object": "gomodel:596ef51500000088/596ef51500000184",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/5b91dbd100000505",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-9074-3507"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-10-02"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://geneontology.org"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/5970219a00000220",
+                "property": "BFO:0000050",
+                "property-label": "part of",
+                "object": "gomodel:596ef51500000088/596ef51500000184",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/5970219a00000241",
+                        "value-type": "IRI"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/596ef51500000128",
+                "property": "RO:0002333",
+                "property-label": "enabled by",
+                "object": "gomodel:596ef51500000088/596ef51500000183",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/5b91dbd100000472",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-09-30"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/596ef51500000166",
+                "property": "BFO:0000051",
+                "property-label": "has part",
+                "object": "gomodel:596ef51500000088/596ef51500000170",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/596ef51500000171",
+                        "value-type": "IRI"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/5970219a00000217",
+                "property": "BFO:0000050",
+                "property-label": "part of",
+                "object": "gomodel:596ef51500000088/596ef51500000184",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/5970219a00000239",
+                        "value-type": "IRI"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/5970219a00000220",
+                "property": "RO:0002333",
+                "property-label": "enabled by",
+                "object": "gomodel:596ef51500000088/5970219a00000221",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/5970219a00000222",
+                        "value-type": "IRI"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/596ef51500000182",
+                "property": "RO:0002212",
+                "property-label": "negatively regulates",
+                "object": "gomodel:596ef51500000088/596ef51500000128",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/5970219a00000246",
+                        "value-type": "IRI"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/5970219a00000217",
+                "property": "BFO:0000066",
+                "property-label": "occurs in",
+                "object": "gomodel:596ef51500000088/5970219a00000678",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/5970219a00000679",
+                        "value-type": "IRI"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/596ef51500000166",
+                "property": "BFO:0000051",
+                "property-label": "has part",
+                "object": "gomodel:596ef51500000088/596ef51500000168",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/596ef51500000174",
+                        "value-type": "IRI"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/596ef51500000128",
+                "property": "BFO:0000066",
+                "property-label": "occurs in",
+                "object": "gomodel:596ef51500000088/596ef51500000144",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/596ef51500000145",
+                        "value-type": "IRI"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/596ef51500000166",
+                "property": "BFO:0000051",
+                "property-label": "has part",
+                "object": "gomodel:596ef51500000088/596ef51500000169",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/596ef51500000172",
+                        "value-type": "IRI"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/596ef51500000117",
+                "property": "BFO:0000050",
+                "property-label": "part of",
+                "object": "gomodel:596ef51500000088/596ef51500000184",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/5970219a00000243",
+                        "value-type": "IRI"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/596ef51500000175",
+                "property": "BFO:0000050",
+                "property-label": "part of",
+                "object": "gomodel:596ef51500000088/596ef51500000182",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/5b91dbd100000477",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-9074-3507"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-10-01"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://geneontology.org"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/5970219a00000220",
+                "property": "BFO:0000066",
+                "property-label": "occurs in",
+                "object": "gomodel:596ef51500000088/5b91dbd100000514",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/5b91dbd100000515",
+                        "value-type": "IRI"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-1706-4196"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2018-10-02"
+                    },
+                    {
+                        "key": "providedBy",
+                        "value": "http://www.wormbase.org"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/596ef51500000175",
+                "property": "RO:0002333",
+                "property-label": "enabled by",
+                "object": "gomodel:596ef51500000088/596ef51500000166",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/596ef51500000178",
+                        "value-type": "IRI"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/596ef51500000117",
+                "property": "RO:0002630",
+                "property-label": "directly negatively regulates",
+                "object": "gomodel:596ef51500000088/596ef51500000175",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/5970219a00000250",
+                        "value-type": "IRI"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:596ef51500000088/5970219a00000217",
+                "property": "RO:0002333",
+                "property-label": "enabled by",
+                "object": "gomodel:596ef51500000088/5993df9e00000344",
+                "annotations": [
+                    {
+                        "key": "evidence",
+                        "value": "gomodel:596ef51500000088/5993df9e00000345",
+                        "value-type": "IRI"
+                    }
+                ]
+            }
+        ],
+        "annotations": [
+            {
+                "key": "state",
+                "value": "development"
+            },
+            {
+                "key": "contributor",
+                "value": "GOC:pt"
+            },
+            {
+                "key": "contributor",
+                "value": "http://orcid.org/0000-0002-1706-4196"
+            },
+            {
+                "key": "contributor",
+                "value": "http://orcid.org/0000-0002-7073-9172"
+            },
+            {
+                "key": "contributor",
+                "value": "http://orcid.org/0000-0002-9074-3507"
+            },
+            {
+                "key": "date",
+                "value": "2018-10-02"
+            },
+            {
+                "key": "title",
+                "value": "canonical wnt using companions"
+            },
+            {
+                "key": "providedBy",
+                "value": "http://geneontology.org"
+            },
+            {
+                "key": "providedBy",
+                "value": "http://www.wormbase.org"
+            },
+            {
+                "key": "http://www.geneontology.org/formats/oboInOwl#id",
+                "value": "gomodel:596ef51500000088"
+            },
+            {
+                "key": "https://w3id.org/biolink/vocab/in_taxon",
+                "value": "NCBITaxon:9606",
+                "value-type": "IRI"
+            }
+        ]
+    }
+}

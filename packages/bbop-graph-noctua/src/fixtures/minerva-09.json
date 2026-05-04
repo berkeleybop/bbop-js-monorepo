@@ -1,0 +1,403 @@
+{
+    "packet-id": "f60f7885802a3b",
+    "uid": "GOC:kltm",
+    "is-reasoned": false,
+    "intention": "query",
+    "signal": "rebuild",
+    "message-type": "success",
+    "message": "success",
+    "data": {
+        "modified-p": false,
+        "id": "gomodel:5798651000000002",
+        "individuals": [
+            {
+                "id": "gomodel:5798651000000002/5798651000000009",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "UBERON:0001833",
+                        "label": "lip"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "hint-layout-y",
+                        "value": "318"
+                    },
+                    {
+                        "key": "hint-layout-x",
+                        "value": "493.5"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2016-07-29"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-6601-2165"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:kltm"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5798651000000002/5798651000000008",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "UBERON:0001723",
+                        "label": "tongue"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-6601-2165"
+                    },
+                    {
+                        "key": "hint-layout-y",
+                        "value": "423"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2016-07-29"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:kltm"
+                    },
+                    {
+                        "key": "hint-layout-x",
+                        "value": "249.25"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5798651000000002/5798651000000006",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "PATO:0002258",
+                        "label": "pointed"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "GOC:kltm"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-6601-2165"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2016-07-29"
+                    },
+                    {
+                        "key": "hint-layout-y",
+                        "value": "151"
+                    },
+                    {
+                        "key": "hint-layout-x",
+                        "value": "379"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5798651000000002/5798651000000005",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "UBERON:0000165",
+                        "label": "mouth"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-6601-2165"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:kltm"
+                    },
+                    {
+                        "key": "hint-layout-y",
+                        "value": "320"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2016-07-29"
+                    },
+                    {
+                        "key": "hint-layout-x",
+                        "value": "55"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5798651000000002/5798651000000004",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "PATO:0001419",
+                        "label": "sharp"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "hint-layout-x",
+                        "value": "377"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-6601-2165"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:kltm"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2016-07-29"
+                    },
+                    {
+                        "key": "hint-layout-y",
+                        "value": "56"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5798651000000002/5798651000000003",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "UBERON:0009680",
+                        "label": "set of upper jaw teeth"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "hint-layout-y",
+                        "value": "106"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:kltm"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2016-07-29"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-6601-2165"
+                    },
+                    {
+                        "key": "hint-layout-x",
+                        "value": "76"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5798651000000002/5798651000000010",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "UBERON:0010879",
+                        "label": "tusk"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "hint-layout-x",
+                        "value": "496"
+                    },
+                    {
+                        "key": "hint-layout-y",
+                        "value": "237"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2016-07-29"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:kltm"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-6601-2165"
+                    }
+                ]
+            },
+            {
+                "id": "gomodel:5798651000000002/5798651000000033",
+                "type": [
+                    {
+                        "type": "class",
+                        "id": "UBERON:0001727",
+                        "label": "taste bud"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "key": "hint-layout-y",
+                        "value": "429"
+                    },
+                    {
+                        "key": "hint-layout-x",
+                        "value": "562"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2016-07-29"
+                    },
+                    {
+                        "key": "contributor",
+                        "value": "GOC:kltm"
+                    }
+                ]
+            }
+        ],
+        "facts": [
+            {
+                "subject": "gomodel:5798651000000002/5798651000000005",
+                "property": "BFO:0000051",
+                "property-label": "has_part",
+                "object": "gomodel:5798651000000002/5798651000000010",
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-6601-2165"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2016-07-29"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:5798651000000002/5798651000000008",
+                "property": "BFO:0000051",
+                "property-label": "has_part",
+                "object": "gomodel:5798651000000002/5798651000000033",
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "GOC:kltm"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2016-07-29"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:5798651000000002/5798651000000005",
+                "property": "BFO:0000051",
+                "property-label": "has_part",
+                "object": "gomodel:5798651000000002/5798651000000008",
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-6601-2165"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2016-07-29"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:5798651000000002/5798651000000003",
+                "property": "RO:0000053",
+                "property-label": "bearer of",
+                "object": "gomodel:5798651000000002/5798651000000004",
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-6601-2165"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2016-07-29"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:5798651000000002/5798651000000005",
+                "property": "BFO:0000051",
+                "property-label": "has_part",
+                "object": "gomodel:5798651000000002/5798651000000009",
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-6601-2165"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2016-07-29"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:5798651000000002/5798651000000003",
+                "property": "RO:0000053",
+                "property-label": "bearer of",
+                "object": "gomodel:5798651000000002/5798651000000006",
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-6601-2165"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2016-07-29"
+                    }
+                ]
+            },
+            {
+                "subject": "gomodel:5798651000000002/5798651000000005",
+                "property": "BFO:0000051",
+                "property-label": "has_part",
+                "object": "gomodel:5798651000000002/5798651000000003",
+                "annotations": [
+                    {
+                        "key": "contributor",
+                        "value": "http://orcid.org/0000-0002-6601-2165"
+                    },
+                    {
+                        "key": "date",
+                        "value": "2016-07-29"
+                    }
+                ]
+            }
+        ],
+        "annotations": [
+            {
+                "key": "state",
+                "value": "development"
+            },
+            {
+                "key": "title",
+                "value": "rabbit with sharp teeth"
+            },
+            {
+                "key": "contributor",
+                "value": "http://orcid.org/0000-0002-6601-2165"
+            },
+            {
+                "key": "date",
+                "value": "2016-07-29"
+            },
+            {
+                "key": "contributor",
+                "value": "GOC:kltm"
+            }
+        ]
+    }
+}
