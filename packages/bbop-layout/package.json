@@ -1,0 +1,55 @@
+{
+  "name": "bbop-layout",
+  "version": "0.0.4",
+  "description": "A collection of external and in-house layout engines producing an abstract common output for JavaScript graphs.",
+  "keywords": [
+    "Berkeley BOP",
+    "GO",
+    "Gene Ontology",
+    "bbop",
+    "client",
+    "graph",
+    "layout",
+    "cytoscape",
+    "node",
+    "npm",
+    "server"
+  ],
+  "homepage": "https://berkeleybop.org/",
+  "bugs": {
+    "url": "https://github.com/berkeleybop/bbop-js-monorepo/issues"
+  },
+  "license": "BSD-3-Clause",
+  "author": "SJC <sjcarbon@lbl.gov>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berkeleybop/bbop-js-monorepo.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/layout.mjs",
+      "require": "./dist/layout.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsdown --format esm --format cjs src/layout.js",
+    "prepack": "npm run build",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "bbop-core": "^0.0.6",
+    "bbop-graph": "^0.0.21",
+    "cytoscape": "^3.30.0",
+    "underscore": "^1.13.8"
+  },
+  "devDependencies": {
+    "chai": "^6.2.2"
+  },
+  "engines": {
+    "node": ">=22 <25"
+  }
+}
