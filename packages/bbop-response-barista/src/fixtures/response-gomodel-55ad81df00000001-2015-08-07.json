@@ -1,0 +1,249 @@
+{
+  "packet-id": "2b54a15a3390a14",
+  "uid": "GOC:kltm",
+  "intention": "query",
+  "signal": "rebuild",
+  "message-type": "success",
+  "message": "success",
+  "data": {
+    "id": "gomodel:55ad81df00000001",
+    "modified-p": true,
+    "annotations": [
+      {
+        "key": "comment",
+        "value": "Model to be used for experiments and testing."
+      },
+      {
+        "key": "title",
+        "value": "Scratch"
+      },
+      {
+        "key": "contributor",
+        "value": "GOC:sjc"
+      },
+      {
+        "key": "contributor",
+        "value": "GOC:kltm"
+      },
+      {
+        "key": "deprecated",
+        "value": "true"
+      },
+      {
+        "key": "date",
+        "value": "2015-08-07"
+      },
+      {
+        "key": "state",
+        "value": "development"
+      }
+    ],
+    "facts": [
+      {
+        "subject": "gomodel:55ad81df00000001/55ad81df00000004",
+        "property": "RO:0002333",
+        "object": "gomodel:55ad81df00000001/55ad81df00000005",
+        "annotations": [
+          {
+            "key": "contributor",
+            "value": "GOC:sjc"
+          },
+          {
+            "key": "date",
+            "value": "2015-07-20"
+          }
+        ]
+      },
+      {
+        "subject": "gomodel:55ad81df00000001/55ad81df00000004",
+        "property": "BFO:0000050",
+        "object": "gomodel:55ad81df00000001/55afdcd900000001",
+        "annotations": [
+          {
+            "key": "contributor",
+            "value": "GOC:sjc"
+          },
+          {
+            "key": "date",
+            "value": "2015-07-22"
+          }
+        ]
+      },
+      {
+        "subject": "gomodel:55ad81df00000001/55ad81df00000004",
+        "property": "BFO:0000066",
+        "object": "gomodel:55ad81df00000001/55ad81df00000006",
+        "annotations": [
+          {
+            "key": "contributor",
+            "value": "GOC:sjc"
+          },
+          {
+            "key": "date",
+            "value": "2015-07-20"
+          }
+        ]
+      }
+    ],
+    "individuals": [
+      {
+        "id": "gomodel:55ad81df00000001/55afdcd900000002",
+        "type": [
+          {
+            "type": "class",
+            "id": "ECO:0000034",
+            "label": "non-traceable author statement"
+          }
+        ],
+        "annotations": [
+          {
+            "key": "date",
+            "value": "2015-07-22"
+          },
+          {
+            "key": "contributor",
+            "value": "GOC:sjc"
+          },
+          {
+            "key": "source",
+            "value": "PMID:HAHAHA"
+          }
+        ]
+      },
+      {
+        "id": "gomodel:55ad81df00000001/55afdcd900000001",
+        "type": [
+          {
+            "type": "class",
+            "id": "GO:0009015",
+            "label": "N-succinylarginine dihydrolase activity"
+          }
+        ],
+        "annotations": [
+          {
+            "key": "contributor",
+            "value": "GOC:sjc"
+          },
+          {
+            "key": "date",
+            "value": "2015-07-22"
+          },
+          {
+            "key": "evidence",
+            "value": "gomodel:55ad81df00000001/55afdcd900000002",
+            "value-type": "IRI"
+          },
+          {
+            "key": "hint-layout-x",
+            "value": "404"
+          },
+          {
+            "key": "hint-layout-y",
+            "value": "76"
+          }
+        ]
+      },
+      {
+        "id": "gomodel:55ad81df00000001/55ad81df00000006",
+        "type": [
+          {
+            "type": "class",
+            "id": "GO:0043670",
+            "label": "foot layer"
+          }
+        ],
+        "annotations": [
+          {
+            "key": "hint-layout-y",
+            "value": "204"
+          },
+          {
+            "key": "contributor",
+            "value": "GOC:sjc"
+          },
+          {
+            "key": "hint-layout-x",
+            "value": "54"
+          },
+          {
+            "key": "date",
+            "value": "2015-07-20"
+          }
+        ]
+      },
+      {
+        "id": "gomodel:55ad81df00000001/55ad81df00000005",
+        "type": [
+          {
+            "type": "class",
+            "id": "FB:FBgn0263395",
+            "label": "hppy"
+          }
+        ],
+        "annotations": [
+          {
+            "key": "date",
+            "value": "2015-07-20"
+          },
+          {
+            "key": "hint-layout-x",
+            "value": "324"
+          },
+          {
+            "key": "contributor",
+            "value": "GOC:sjc"
+          },
+          {
+            "key": "hint-layout-y",
+            "value": "198"
+          }
+        ]
+      },
+      {
+        "id": "gomodel:55ad81df00000001/55ad81df00000004",
+        "type": [
+          {
+            "type": "class",
+            "id": "GO:0033042",
+            "label": "umami taste receptor activity"
+          }
+        ],
+        "annotations": [
+          {
+            "key": "date",
+            "value": "2015-07-20"
+          },
+          {
+            "key": "contributor",
+            "value": "GOC:sjc"
+          },
+          {
+            "key": "hint-layout-y",
+            "value": "64"
+          },
+          {
+            "key": "hint-layout-x",
+            "value": "62"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "type": "property",
+        "id": "BFO:0000066",
+        "label": "occurs in"
+      },
+      {
+        "type": "property",
+        "id": "BFO:0000050",
+        "label": "part of"
+      },
+      {
+        "type": "property",
+        "id": "RO:0002333",
+        "label": "enabled_by"
+      }
+    ]
+  }
+}

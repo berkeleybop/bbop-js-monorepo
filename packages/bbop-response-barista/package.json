@@ -1,0 +1,54 @@
+{
+  "name": "bbop-response-barista",
+  "version": "0.0.11",
+  "description": "Response handler for dealing with the parsing of responses from Barista (enveloping Minerva).",
+  "keywords": [
+    "AmiGO",
+    "Berkeley BOP",
+    "GO",
+    "Gene Ontology",
+    "Minerva",
+    "Noctua",
+    "bbop",
+    "client",
+    "node",
+    "npm",
+    "server"
+  ],
+  "homepage": "https://berkeleybop.org/",
+  "bugs": {
+    "url": "https://github.com/berkeleybop/bbop-js-monorepo/issues"
+  },
+  "license": "BSD-3-Clause",
+  "author": "SJC <sjcarbon@lbl.gov>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berkeleybop/bbop-js-monorepo.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/response.mjs",
+      "require": "./dist/response.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsdown --format esm --format cjs src/response.js",
+    "prepack": "npm run build",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "bbop-core": "^0.0.6",
+    "bbop-rest-response": "^0.0.4",
+    "underscore": "^1.13.8"
+  },
+  "devDependencies": {
+    "chai": "^6.2.2"
+  },
+  "engines": {
+    "node": ">=22 <25"
+  }
+}

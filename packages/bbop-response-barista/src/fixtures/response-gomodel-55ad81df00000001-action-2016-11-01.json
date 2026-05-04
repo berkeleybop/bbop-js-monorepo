@@ -1,0 +1,79 @@
+{
+  "data": {
+    "annotations": [
+      {
+        "value": "Scratch",
+        "key": "title"
+      },
+      {
+        "value": "http://orcid.org/0000-0002-6601-2165",
+        "key": "contributor"
+      },
+      {
+        "value": "http://orcid.org/0000-0001-8244-1536",
+        "key": "contributor"
+      },
+      {
+        "value": "2016-11-01",
+        "key": "date"
+      },
+      {
+        "value": "GOC:sjc",
+        "key": "contributor"
+      },
+      {
+        "value": "Model to be used for experiments and testing.",
+        "key": "comment"
+      },
+      {
+        "value": "GOC:kltm",
+        "key": "contributor"
+      },
+      {
+        "value": "http://geneontology.org",
+        "key": "providedBy"
+      },
+      {
+        "value": "http://orcid.org/0000-0002-8688-6599",
+        "key": "contributor"
+      }
+    ],
+    "facts": [],
+    "individuals": [
+      {
+        "annotations": [
+          {
+            "value": "http://geneontology.org",
+            "key": "providedBy"
+          },
+          {
+            "value": "2016-11-01",
+            "key": "date"
+          },
+          {
+            "value": "GOC:kltm",
+            "key": "contributor"
+          }
+        ],
+        "type": [
+          {
+            "label": "neurogenesis",
+            "id": "GO:0022008",
+            "type": "class"
+          }
+        ],
+        "id": "gomodel:55ad81df00000001/5818d91900000000"
+      }
+    ],
+    "id": "gomodel:55ad81df00000001",
+    "modified-p": true
+  },
+  "message": "success",
+  "message-type": "success",
+  "signal": "merge",
+  "intention": "action",
+  "is-reasoned": false,
+  "provided-by": ["http://geneontology.org"],
+  "uid": "GOC:kltm",
+  "packet-id": "3aa3e930a5356"
+}

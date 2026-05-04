@@ -1,0 +1,3794 @@
+{
+  "packet-id": "2b55e6424043f16",
+  "uid": "GOC:kltm",
+  "intention": "query",
+  "signal": "meta",
+  "message-type": "success",
+  "message": "success: 0",
+  "data": {
+    "meta": {
+      "relations": [
+        {
+          "id": "BFO:0000050",
+          "label": "part of",
+          "relevant": true
+        },
+        {
+          "id": "BFO:0000051",
+          "label": "has part",
+          "relevant": false
+        },
+        {
+          "id": "BFO:0000062",
+          "label": "preceded by",
+          "relevant": false
+        },
+        {
+          "id": "BFO:0000063",
+          "label": "precedes",
+          "relevant": false
+        },
+        {
+          "id": "BFO:0000066",
+          "label": "occurs in",
+          "relevant": true
+        },
+        {
+          "id": "BFO:0000067",
+          "label": "contains process",
+          "relevant": false
+        },
+        {
+          "id": "ECO:9000000",
+          "label": "used_in",
+          "relevant": false
+        },
+        {
+          "id": "ECO:9000001",
+          "label": "uses",
+          "relevant": false
+        },
+        {
+          "id": "obo:GOCHEREL_0000001",
+          "label": "agent in",
+          "relevant": false
+        },
+        {
+          "id": "obo:GOCHEREL_0000002",
+          "label": "has application",
+          "relevant": false
+        },
+        {
+          "id": "obo:GOCHEREL_0000003",
+          "label": "has biological_role",
+          "relevant": false
+        },
+        {
+          "id": "obo:GOCHEREL_0000004",
+          "label": "has_chemical_role",
+          "relevant": false
+        },
+        {
+          "id": "obo:GOREL_0000040",
+          "label": "results_in",
+          "relevant": false
+        },
+        {
+          "id": "obo:GOREL_0001006",
+          "label": "acts_on_population_of",
+          "relevant": false
+        },
+        {
+          "id": "obo:GOREL_0001007",
+          "label": "mediated_by",
+          "relevant": false
+        },
+        {
+          "id": "obo:GOREL_0001019",
+          "label": "results_in_division_of",
+          "relevant": false
+        },
+        {
+          "id": "obo:GOREL_0002001",
+          "label": "results_in_assembly_of",
+          "relevant": false
+        },
+        {
+          "id": "obo:GOREL_0002002",
+          "label": "results_in_disassembly_of",
+          "relevant": false
+        },
+        {
+          "id": "obo:GOREL_0002003",
+          "label": "results_in_distribution_of",
+          "relevant": false
+        },
+        {
+          "id": "obo:GOREL_0002004",
+          "label": "results_in_fission_of",
+          "relevant": false
+        },
+        {
+          "id": "obo:GOREL_0002005",
+          "label": "results_in_fusion_of",
+          "relevant": false
+        },
+        {
+          "id": "obo:GOREL_0002006",
+          "label": "results_in_organization_of",
+          "relevant": false
+        },
+        {
+          "id": "obo:GOREL_0002007",
+          "label": "results_in_remodeling_of",
+          "relevant": false
+        },
+        {
+          "id": "obo:GOREL_0002008",
+          "label": "has intermediate",
+          "relevant": false
+        },
+        {
+          "id": "obo:GOREL_0002010",
+          "label": "results_in_transport_to_from_or_mediated_by",
+          "relevant": false
+        },
+        {
+          "id": "obo:LEGOREL_0000000",
+          "label": "lego relation",
+          "relevant": false
+        },
+        {
+          "id": "RO:0000052",
+          "label": "inheres in",
+          "relevant": false
+        },
+        {
+          "id": "RO:0000053",
+          "label": "bearer of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0000056",
+          "label": "participates_in",
+          "relevant": false
+        },
+        {
+          "id": "RO:0000057",
+          "label": "has participant",
+          "relevant": false
+        },
+        {
+          "id": "RO:0000081",
+          "label": "role of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0000087",
+          "label": "has role",
+          "relevant": false
+        },
+        {
+          "id": "RO:0001000",
+          "label": "derives from",
+          "relevant": false
+        },
+        {
+          "id": "RO:0001001",
+          "label": "derives into",
+          "relevant": false
+        },
+        {
+          "id": "RO:0001015",
+          "label": "location of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0001018",
+          "label": "contained in",
+          "relevant": false
+        },
+        {
+          "id": "RO:0001019",
+          "label": "contains",
+          "relevant": false
+        },
+        {
+          "id": "RO:0001025",
+          "label": "located_in",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002007",
+          "label": "bounding layer of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002011",
+          "label": "regulates transport of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002084",
+          "label": "during which ends",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002085",
+          "label": "encompasses",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002086",
+          "label": "ends_after",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002087",
+          "label": "immediately_preceded_by",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002088",
+          "label": "during_which_starts",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002090",
+          "label": "immediately_precedes",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002091",
+          "label": "starts_during",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002092",
+          "label": "happens during",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002093",
+          "label": "ends during",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002131",
+          "label": "overlaps",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002160",
+          "label": "only in taxon",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002162",
+          "label": "in taxon",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002163",
+          "label": "spatially disjoint from",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002180",
+          "label": "has_component",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002202",
+          "label": "develops from",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002203",
+          "label": "develops into",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002207",
+          "label": "directly_develops_from",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002210",
+          "label": "directly develops into",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002211",
+          "label": "regulates",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002212",
+          "label": "negatively regulates",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002213",
+          "label": "positively_regulates",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002215",
+          "label": "capable of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002216",
+          "label": "capable of part of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002220",
+          "label": "adjacent_to",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002222",
+          "label": "temporally related to",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002223",
+          "label": "starts",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002224",
+          "label": "starts with",
+          "relevant": true
+        },
+        {
+          "id": "RO:0002225",
+          "label": "develops from part of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002226",
+          "label": "develops_in",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002229",
+          "label": "ends",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002230",
+          "label": "ends with",
+          "relevant": true
+        },
+        {
+          "id": "RO:0002231",
+          "label": "has start location",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002232",
+          "label": "has end location",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002233",
+          "label": "has input",
+          "relevant": true
+        },
+        {
+          "id": "RO:0002234",
+          "label": "has output",
+          "relevant": true
+        },
+        {
+          "id": "RO:0002254",
+          "label": "has developmental contribution from",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002255",
+          "label": "developmentally contributes to",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002258",
+          "label": "developmentally preceded by",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002286",
+          "label": "developmentally succeeded by",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002287",
+          "label": "part of developmental precursor of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002295",
+          "label": "results in developmental progression of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002296",
+          "label": "results in development of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002297",
+          "label": "results in formation of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002298",
+          "label": "results in morphogenesis of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002299",
+          "label": "results in maturation of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002313",
+          "label": "transports or maintains localization of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002314",
+          "label": "inheres in part of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002315",
+          "label": "results in acquisition of features of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002320",
+          "label": "evolutionarily related to",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002323",
+          "label": "mereotopologically related to",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002324",
+          "label": "developmentally related to",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002327",
+          "label": "enables",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002328",
+          "label": "functionally related to",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002329",
+          "label": "part of structure that is capable of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002331",
+          "label": "involved in",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002332",
+          "label": "regulates levels of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002333",
+          "label": "enabled_by",
+          "relevant": true
+        },
+        {
+          "id": "RO:0002334",
+          "label": "regulated by",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002335",
+          "label": "negatively regulated by",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002336",
+          "label": "positively regulated by",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002337",
+          "label": "related via localization to",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002338",
+          "label": "has target start location",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002339",
+          "label": "has target end location",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002340",
+          "label": "imports",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002341",
+          "label": "results in transport along",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002342",
+          "label": "results in transport across",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002343",
+          "label": "results in growth of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002344",
+          "label": "results in transport to from or in",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002345",
+          "label": "exports",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002348",
+          "label": "results in commitment to",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002349",
+          "label": "results in determination of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002352",
+          "label": "input of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002353",
+          "label": "output of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002354",
+          "label": "formed as result of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002355",
+          "label": "results in structural organization of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002356",
+          "label": "results in specification of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002379",
+          "label": "spatially coextensive with",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002384",
+          "label": "has developmental potential involving",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002385",
+          "label": "has potential to developmentally contribute to",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002387",
+          "label": "has potential to develop into",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002388",
+          "label": "has potential to directly develop into",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002404",
+          "label": "causally downstream of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002405",
+          "label": "immediately causally downstream of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002406",
+          "label": "directly activates",
+          "relevant": true
+        },
+        {
+          "id": "RO:0002407",
+          "label": "indirectly activates",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002408",
+          "label": "directly inhibits",
+          "relevant": true
+        },
+        {
+          "id": "RO:0002409",
+          "label": "indirectly inhibits",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002410",
+          "label": "causally related to",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002411",
+          "label": "causally upstream of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002412",
+          "label": "immediately causally upstream of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002413",
+          "label": "directly provides input for",
+          "relevant": true
+        },
+        {
+          "id": "RO:0002414",
+          "label": "provides input for",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002418",
+          "label": "causally upstream of or within",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002427",
+          "label": "causally downstream of or within",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002428",
+          "label": "involved in regulation of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002429",
+          "label": "involved in positive regulation of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002430",
+          "label": "involved in negative regulation of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002431",
+          "label": "involved in or regulates",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002432",
+          "label": "enables activity in",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002434",
+          "label": "interacts with",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002436",
+          "label": "molecularly interacts with",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002448",
+          "label": "molecularly controls",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002449",
+          "label": "molecularly decreases activity of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002450",
+          "label": "molecularly increases activity of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002464",
+          "label": "helper property",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002465",
+          "label": "is symbiosis",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002466",
+          "label": "is commensalism",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002467",
+          "label": "is mutualism",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002468",
+          "label": "is parasitism",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002476",
+          "label": "child nucleus of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002477",
+          "label": "child nucleus of in hermaphrodite",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002478",
+          "label": "child nucleus of in male",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002479",
+          "label": "has part that occurs in",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002481",
+          "label": "is kinase activity",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002482",
+          "label": "is ubiquitination",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002494",
+          "label": "transformation of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002495",
+          "label": "immediate transformation of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002501",
+          "label": "causal relation between processes",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002502",
+          "label": "depends on",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002563",
+          "label": "interaction relation helper property",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002564",
+          "label": "molecular interaction relation helper property",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002565",
+          "label": "results in movement of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002584",
+          "label": "has part structure that is capable of",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002595",
+          "label": "causal relation between material entity and a process",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002596",
+          "label": "capable of regulating",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002597",
+          "label": "capable of negatively regulating",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002598",
+          "label": "capable of positively regulating",
+          "relevant": false
+        },
+        {
+          "id": "RO:0002609",
+          "label": "related via dependence to",
+          "relevant": false
+        },
+        {
+          "id": "RO:0003000",
+          "label": "produces",
+          "relevant": false
+        },
+        {
+          "id": "RO:0003001",
+          "label": "produced_by",
+          "relevant": false
+        },
+        {
+          "id": "obo:go/extensions/ro_pending#alters_location_of",
+          "label": "alters location of",
+          "relevant": false
+        },
+        {
+          "id": "obo:go/extensions/ro_pending#results_in_connection_of",
+          "relevant": false
+        },
+        {
+          "id": "obo:go/extensions/ro_pending#results_in_transport_through",
+          "relevant": false
+        },
+        {
+          "id": "obo:wbbt#xunion_of",
+          "label": "exclusive_union_of",
+          "relevant": false
+        }
+      ],
+      "data-properties": [],
+      "evidence": [
+        {
+          "id": "ECO:0001234",
+          "label": "MTS assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001233",
+          "label": "motility wound healing assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001236",
+          "label": "multiplex bead-based immunoassay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001235",
+          "label": "MTT assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001230",
+          "label": "mass spectrometry evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001232",
+          "label": "microscopy evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001231",
+          "label": "medical imaging evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001238",
+          "label": "NMR spectroscopy evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001237",
+          "label": "natural variation mutant evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001239",
+          "label": "nuclear fragmentation evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001247",
+          "label": "point mutation evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001108",
+          "label": "phage display evidence"
+        },
+        {
+          "id": "ECO:0001246",
+          "label": "physical examination evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001107",
+          "label": "nucleotide analog incorporation evidence"
+        },
+        {
+          "id": "ECO:0001245",
+          "label": "phosphopeptide array evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001106",
+          "label": "nuclease protection assay evidence"
+        },
+        {
+          "id": "ECO:0001244",
+          "label": "phosphopeptide affinity enrichment evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001105",
+          "label": "NMR spectroscopy evidence"
+        },
+        {
+          "id": "ECO:0001243",
+          "label": "phosphoamino acid analysis evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001242",
+          "label": "phage display evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001241",
+          "label": "nucleotide analog incorporation evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001240",
+          "label": "nuclease protection assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001109",
+          "label": "phosphoamino acid analysis evidence"
+        },
+        {
+          "id": "ECO:0001100",
+          "label": "MTS assay evidence"
+        },
+        {
+          "id": "ECO:0001104",
+          "label": "nuclear fragmentation evidence"
+        },
+        {
+          "id": "ECO:0001103",
+          "label": "natural variation mutant evidence"
+        },
+        {
+          "id": "ECO:0001249",
+          "label": "protein detection by fluorescence evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001102",
+          "label": "multiplex bead-based immunoassay evidence"
+        },
+        {
+          "id": "ECO:0001101",
+          "label": "MTT assay evidence"
+        },
+        {
+          "id": "ECO:0001248",
+          "label": "propidium iodide staining evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001250",
+          "label": "protein dot blot assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001210",
+          "label": "in vivo defarnesylation assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001212",
+          "label": "in vivo desumoylation assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001117",
+          "label": "protein microarray evidence"
+        },
+        {
+          "id": "ECO:0001211",
+          "label": "in vivo demethylation assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001116",
+          "label": "protein dot blot assay evidence"
+        },
+        {
+          "id": "ECO:0001119",
+          "label": "quantitative mass spectrometry evidence"
+        },
+        {
+          "id": "ECO:0001214",
+          "label": "in vivo farnesylation assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001213",
+          "label": "in vivo deubiquitination assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001118",
+          "label": "protein sequencing assay evidence"
+        },
+        {
+          "id": "ECO:0001216",
+          "label": "in vivo palmitoylation assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001113",
+          "label": "point mutation evidence"
+        },
+        {
+          "id": "ECO:0001215",
+          "label": "in vivo methylation assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001112",
+          "label": "phosphopeptide array evidence"
+        },
+        {
+          "id": "ECO:0001218",
+          "label": "in vivo protein kinase assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001115",
+          "label": "protein detection by fluorescence evidence"
+        },
+        {
+          "id": "ECO:0001217",
+          "label": "in vivo phosphatase assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001114",
+          "label": "propidium iodide staining evidence"
+        },
+        {
+          "id": "ECO:0001219",
+          "label": "in vivo sumoylation assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001111",
+          "label": "physical examination evidence"
+        },
+        {
+          "id": "ECO:0001110",
+          "label": "phosphopeptide affinity enrichment evidence"
+        },
+        {
+          "id": "ECO:0001221",
+          "label": "in vivo translation assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001220",
+          "label": "in vivo transcription assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001225",
+          "label": "knockout evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001224",
+          "label": "knockin evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001129",
+          "label": "TACE activity assay evidence"
+        },
+        {
+          "id": "ECO:0001128",
+          "label": "syngeneic transplantation experiment evidence"
+        },
+        {
+          "id": "ECO:0001223",
+          "label": "induced mutation evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001127",
+          "label": "surface plasmon resonance evidence"
+        },
+        {
+          "id": "ECO:0001222",
+          "label": "in vivo ubiquitination assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001126",
+          "label": "spectrophotometry evidence"
+        },
+        {
+          "id": "ECO:0001229",
+          "label": "mammalian 2-hybrid assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001228",
+          "label": "macroscopy evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001125",
+          "label": "restriction landmark genome scanning evidence"
+        },
+        {
+          "id": "ECO:0001227",
+          "label": "LUMIER assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001124",
+          "label": "restriction fragment detection evidence"
+        },
+        {
+          "id": "ECO:0001226",
+          "label": "lipid binding assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001123",
+          "label": "resonant mirror biosensor evidence"
+        },
+        {
+          "id": "ECO:0001122",
+          "label": "radiologic test evidence"
+        },
+        {
+          "id": "ECO:0001121",
+          "label": "radioimmunoassay evidence"
+        },
+        {
+          "id": "ECO:0001120",
+          "label": "radioassay evidence"
+        },
+        {
+          "id": "ECO:0001208",
+          "label": "in vivo cleavage assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001209",
+          "label": "in vivo deacetylation assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001206",
+          "label": "in vitro ubiquitination assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001207",
+          "label": "in vivo acetylation assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001204",
+          "label": "in vitro transcription assay used in manual assertion"
+        },
+        {
+          "id": "ECO:0001205",
+          "label": "in vitro translation assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001202",
+          "label": "in vitro protein kinase assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001203",
+          "label": "in vitro sumoylation assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001200",
+          "label": "in vitro phosphatase assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001201",
+          "label": "in vitro polyADP-ribosylation assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001005",
+          "label": "7-AAD staining evidence"
+        },
+        {
+          "id": "ECO:0001004",
+          "label": "51Cr release assay evidence"
+        },
+        {
+          "id": "ECO:0001003",
+          "label": "[3H]-thymidine incorporation assay evidence"
+        },
+        {
+          "id": "ECO:0001002",
+          "label": "[3H]arachidonic acid release assay evidence"
+        },
+        {
+          "id": "ECO:0001001",
+          "label": "3D cell culture evidence"
+        },
+        {
+          "id": "ECO:0001009",
+          "label": "allograft transplantation experiment evidence"
+        },
+        {
+          "id": "ECO:0001008",
+          "label": "Alamar blue assay evidence"
+        },
+        {
+          "id": "ECO:0001007",
+          "label": "adoptive cell transfer evidence"
+        },
+        {
+          "id": "ECO:0001006",
+          "label": "adhesion assay evidence"
+        },
+        {
+          "id": "ECO:0001180",
+          "label": "eTag assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001183",
+          "label": "fluorescence resonance energy transfer evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001184",
+          "label": "gel-filtration evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001039",
+          "label": "DNA laddering assay evidence"
+        },
+        {
+          "id": "ECO:0001181",
+          "label": "filter binding assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001182",
+          "label": "fluorescence in situ hybridization evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001037",
+          "label": "DAPI staining evidence"
+        },
+        {
+          "id": "ECO:0001038",
+          "label": "deletion evidence"
+        },
+        {
+          "id": "ECO:0001035",
+          "label": "cytochemistry evidence"
+        },
+        {
+          "id": "ECO:0001036",
+          "label": "cytochrome C release assay evidence"
+        },
+        {
+          "id": "ECO:0001033",
+          "label": "cross-linking evidence"
+        },
+        {
+          "id": "ECO:0001034",
+          "label": "crystallography evidence"
+        },
+        {
+          "id": "ECO:0001031",
+          "label": "conditional knockin evidence"
+        },
+        {
+          "id": "ECO:0001032",
+          "label": "constitutively active mutant evidence"
+        },
+        {
+          "id": "ECO:0001041",
+          "label": "DNA/RNA microarray evidence"
+        },
+        {
+          "id": "ECO:0001040",
+          "label": "DNA/RNA dot blot assay evidence"
+        },
+        {
+          "id": "ECO:0001177",
+          "label": "DNA/RNA dot blot assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001176",
+          "label": "DNA laddering assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001175",
+          "label": "deletion evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001174",
+          "label": "DAPI staining evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001179",
+          "label": "dominant-negative mutant evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001178",
+          "label": "DNA/RNA microarray evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001190",
+          "label": "in vitro acetylation assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001191",
+          "label": "in vitro cleavage assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001192",
+          "label": "in vitro deacetylation assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001193",
+          "label": "in vitro defarnesylation assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001194",
+          "label": "in vitro demethylation assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001195",
+          "label": "in vitro desumoylation assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001046",
+          "label": "filter binding assay evidence"
+        },
+        {
+          "id": "ECO:0001047",
+          "label": "fluorescence in situ hybridization evidence"
+        },
+        {
+          "id": "ECO:0001048",
+          "label": "fluorescence resonance energy transfer evidence"
+        },
+        {
+          "id": "ECO:0001049",
+          "label": "gel-filtration evidence"
+        },
+        {
+          "id": "ECO:0001042",
+          "label": "dominant-negative mutant evidence"
+        },
+        {
+          "id": "ECO:0001043",
+          "label": "Edman degradation evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001044",
+          "label": "Edman degradation evidence"
+        },
+        {
+          "id": "ECO:0001045",
+          "label": "eTag assay evidence"
+        },
+        {
+          "id": "ECO:0001050",
+          "label": "histochemistry evidence"
+        },
+        {
+          "id": "ECO:0001052",
+          "label": "high-performance liquid chromatography evidence"
+        },
+        {
+          "id": "ECO:0001051",
+          "label": "histology evidence"
+        },
+        {
+          "id": "ECO:0001186",
+          "label": "immunocytochemistry evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001185",
+          "label": "histochemistry evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001188",
+          "label": "immunodepletion evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001187",
+          "label": "histology evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001189",
+          "label": "immunohistochemistry evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001019",
+          "label": "caspase assay evidence"
+        },
+        {
+          "id": "ECO:0001017",
+          "label": "Boyden chamber assay evidence"
+        },
+        {
+          "id": "ECO:0001018",
+          "label": "BrdU incorporation assay evidence"
+        },
+        {
+          "id": "ECO:0000301",
+          "label": "beta-galactosidase protein immunolocalization evidence"
+        },
+        {
+          "id": "ECO:0000300",
+          "label": "green fluorescent protein immunolocalization evidence"
+        },
+        {
+          "id": "ECO:0001011",
+          "label": "annexin-V staining evidence"
+        },
+        {
+          "id": "ECO:0000305",
+          "label": "curator inference used in manual assertion",
+          "code": "IC"
+        },
+        {
+          "id": "ECO:0001012",
+          "label": "behavioral assay evidence"
+        },
+        {
+          "id": "ECO:0000304",
+          "label": "traceable author statement used in manual assertion",
+          "code": "TAS"
+        },
+        {
+          "id": "ECO:0000303",
+          "label": "non-traceable author statement used in manual assertion",
+          "code": "NAS"
+        },
+        {
+          "id": "ECO:0001010",
+          "label": "anion-exchange chromatography evidence"
+        },
+        {
+          "id": "ECO:0000302",
+          "label": "author statement used in manual assertion"
+        },
+        {
+          "id": "ECO:0001015",
+          "label": "blocking polyclonal antibody evidence"
+        },
+        {
+          "id": "ECO:0000309",
+          "label": "cap analysis of gene expression evidence"
+        },
+        {
+          "id": "ECO:0001016",
+          "label": "blood test evidence"
+        },
+        {
+          "id": "ECO:0000308",
+          "label": "biological aspect of ancestor evidence"
+        },
+        {
+          "id": "ECO:0001013",
+          "label": "blocking monoclonal antibody evidence"
+        },
+        {
+          "id": "ECO:0000307",
+          "label": "no biological data found used in manual assertion",
+          "code": "ND"
+        },
+        {
+          "id": "ECO:0001014",
+          "label": "blocking peptide evidence"
+        },
+        {
+          "id": "ECO:0000306",
+          "label": "inference from background scientific knowledge used in manual assertion"
+        },
+        {
+          "id": "ECO:0001199",
+          "label": "in vitro palmitoylation assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001198",
+          "label": "in vitro methylation assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001197",
+          "label": "in vitro farnesylation assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001196",
+          "label": "in vitro deubiquitination assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001028",
+          "label": "co-sedimentation assay evidence"
+        },
+        {
+          "id": "ECO:0001029",
+          "label": "comet assay evidence"
+        },
+        {
+          "id": "ECO:0000310",
+          "label": "nano-cap analysis of gene expression evidence"
+        },
+        {
+          "id": "ECO:0000312",
+          "label": "imported information used in manual assertion"
+        },
+        {
+          "id": "ECO:0000311",
+          "label": "imported information"
+        },
+        {
+          "id": "ECO:0001020",
+          "label": "cell counting evidence"
+        },
+        {
+          "id": "ECO:0000314",
+          "label": "direct assay evidence used in manual assertion",
+          "code": "IDA"
+        },
+        {
+          "id": "ECO:0001021",
+          "label": "cell permeability assay evidence"
+        },
+        {
+          "id": "ECO:0000313",
+          "label": "imported information used in automatic assertion"
+        },
+        {
+          "id": "ECO:0001022",
+          "label": "CFSE-staining evidence"
+        },
+        {
+          "id": "ECO:0000316",
+          "label": "genetic interaction evidence used in manual assertion",
+          "code": "IGI"
+        },
+        {
+          "id": "ECO:0001023",
+          "label": "chemiluminescence-linked immunoassay evidence"
+        },
+        {
+          "id": "ECO:0000315",
+          "label": "mutant phenotype evidence used in manual assertion",
+          "code": "IMP"
+        },
+        {
+          "id": "ECO:0001024",
+          "label": "chimeric protein evidence"
+        },
+        {
+          "id": "ECO:0000318",
+          "label": "biological aspect of ancestor evidence used in manual assertion",
+          "code": "IBA"
+        },
+        {
+          "id": "ECO:0001025",
+          "label": "co-electrophoresis evidence"
+        },
+        {
+          "id": "ECO:0000317",
+          "label": "genomic context evidence used in manual assertion",
+          "code": "IGC"
+        },
+        {
+          "id": "ECO:0001026",
+          "label": "co-localization evidence"
+        },
+        {
+          "id": "ECO:0001027",
+          "label": "colony counting evidence"
+        },
+        {
+          "id": "ECO:0000319",
+          "label": "biological aspect of descendant evidence used in manual assertion",
+          "code": "IBD"
+        },
+        {
+          "id": "ECO:0001030",
+          "label": "conditional knockout evidence"
+        },
+        {
+          "id": "ECO:0001079",
+          "label": "in vivo deubiquitination assay evidence"
+        },
+        {
+          "id": "ECO:0001078",
+          "label": "in vivo demethylation assay evidence"
+        },
+        {
+          "id": "ECO:0001077",
+          "label": "in vivo defarnesylation assay evidence"
+        },
+        {
+          "id": "ECO:0001076",
+          "label": "in vivo deacetylation assay evidence"
+        },
+        {
+          "id": "ECO:0001075",
+          "label": "in vivo cleavage assay evidence"
+        },
+        {
+          "id": "ECO:0001140",
+          "label": "7-AAD staining evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001132",
+          "label": "tryptic phosphopeptide mapping assay evidence"
+        },
+        {
+          "id": "ECO:0001133",
+          "label": "TUNEL assay evidence"
+        },
+        {
+          "id": "ECO:0001130",
+          "label": "tissue microarray evidence"
+        },
+        {
+          "id": "ECO:0001131",
+          "label": "transgenic organism evidence"
+        },
+        {
+          "id": "ECO:0001136",
+          "label": "WST-1 assay evidence"
+        },
+        {
+          "id": "ECO:0001137",
+          "label": "xenotransplantation experiment evidence"
+        },
+        {
+          "id": "ECO:0001134",
+          "label": "urine test evidence"
+        },
+        {
+          "id": "ECO:0001135",
+          "label": "wound healing assay evidence"
+        },
+        {
+          "id": "ECO:0001084",
+          "label": "in vivo phosphatase assay evidence"
+        },
+        {
+          "id": "ECO:0001085",
+          "label": "in vivo protein kinase assay evidence"
+        },
+        {
+          "id": "ECO:0001138",
+          "label": "3D cell culture evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001082",
+          "label": "in vivo methylation assay evidence"
+        },
+        {
+          "id": "ECO:0001139",
+          "label": "51Cr release assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001083",
+          "label": "in vivo palmitoylation assay evidence"
+        },
+        {
+          "id": "ECO:0001080",
+          "label": "in vivo desumoylation assay evidence"
+        },
+        {
+          "id": "ECO:0001081",
+          "label": "in vivo farnesylation assay evidence"
+        },
+        {
+          "id": "ECO:0001273",
+          "label": "ectopic expression evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001087",
+          "label": "in vivo transcription assay evidence"
+        },
+        {
+          "id": "ECO:0001086",
+          "label": "in vivo sumoylation assay evidence"
+        },
+        {
+          "id": "ECO:0001089",
+          "label": "in vivo ubiquitination assay evidence"
+        },
+        {
+          "id": "ECO:0001088",
+          "label": "in vivo translation assay evidence"
+        },
+        {
+          "id": "ECO:0001151",
+          "label": "blocking peptide evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001150",
+          "label": "blocking monoclonal antibody evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001141",
+          "label": "[3H]-thymidine incorporation assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001142",
+          "label": "[3H]arachidonic acid release assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001143",
+          "label": "adhesion assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001144",
+          "label": "adoptive cell transfer evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001145",
+          "label": "Alamar blue assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001146",
+          "label": "allograft transplantation experiment evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001147",
+          "label": "anion-exchange chromatography evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001148",
+          "label": "annexin-V staining evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001093",
+          "label": "LUMIER assay evidence"
+        },
+        {
+          "id": "ECO:0001149",
+          "label": "behavioral assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001094",
+          "label": "macroscopy evidence"
+        },
+        {
+          "id": "ECO:0001095",
+          "label": "mammalian 2-hybrid assay evidence"
+        },
+        {
+          "id": "ECO:0001096",
+          "label": "mass spectrometry evidence"
+        },
+        {
+          "id": "ECO:0001090",
+          "label": "knockin evidence"
+        },
+        {
+          "id": "ECO:0001091",
+          "label": "knockout evidence"
+        },
+        {
+          "id": "ECO:0001092",
+          "label": "lipid binding assay evidence"
+        },
+        {
+          "id": "ECO:0001056",
+          "label": "induced mutation evidence"
+        },
+        {
+          "id": "ECO:0001055",
+          "label": "immunohistochemistry evidence"
+        },
+        {
+          "id": "ECO:0001054",
+          "label": "immunodepletion evidence"
+        },
+        {
+          "id": "ECO:0001053",
+          "label": "immunocytochemistry evidence"
+        },
+        {
+          "id": "ECO:0001261",
+          "label": "WST-1 assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001260",
+          "label": "xenotransplantation experiment evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001059",
+          "label": "in vitro deubiquitination assay evidence"
+        },
+        {
+          "id": "ECO:0001058",
+          "label": "in vitro cleavage assay evidence"
+        },
+        {
+          "id": "ECO:0001057",
+          "label": "in vitro acetylation assay evidence"
+        },
+        {
+          "id": "ECO:0001162",
+          "label": "co-electrophoresis evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001161",
+          "label": "chimeric protein evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001160",
+          "label": "chemiluminescence-linked immunoassay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001158",
+          "label": "cell permeability assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001159",
+          "label": "CFSE-staining evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001156",
+          "label": "caspase assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001259",
+          "label": "syngeneic transplantation experiment evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001157",
+          "label": "cell counting evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001154",
+          "label": "Boyden chamber assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001155",
+          "label": "BrdU incorporation assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001152",
+          "label": "blocking polyclonal antibody evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001153",
+          "label": "blood test evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001253",
+          "label": "quantitative mass spectrometry evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001254",
+          "label": "radioassay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001251",
+          "label": "protein microarray evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001252",
+          "label": "protein sequencing assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001257",
+          "label": "restriction fragment detection evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001062",
+          "label": "in vitro demethylation assay evidence"
+        },
+        {
+          "id": "ECO:0001258",
+          "label": "spectrophotometry evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001063",
+          "label": "in vitro desumoylation assay evidence"
+        },
+        {
+          "id": "ECO:0001255",
+          "label": "radioimmunoassay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001060",
+          "label": "in vitro deacetylation assay evidence"
+        },
+        {
+          "id": "ECO:0001256",
+          "label": "radiologic test evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001061",
+          "label": "in vitro defarnesylation assay evidence"
+        },
+        {
+          "id": "ECO:0001065",
+          "label": "in vitro methylation assay evidence"
+        },
+        {
+          "id": "ECO:0001064",
+          "label": "in vitro farnesylation assay evidence"
+        },
+        {
+          "id": "ECO:0001067",
+          "label": "in vitro phosphatase assay evidence"
+        },
+        {
+          "id": "ECO:0001066",
+          "label": "in vitro palmitoylation assay evidence"
+        },
+        {
+          "id": "ECO:0001270",
+          "label": "restriction landmark genome scanning evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001069",
+          "label": "in vitro polyADP-ribosylation assay evidence"
+        },
+        {
+          "id": "ECO:0001068",
+          "label": "in vitro protein kinase assay evidence"
+        },
+        {
+          "id": "ECO:0001272",
+          "label": "high-performance liquid chromatography evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001271",
+          "label": "resonant mirror biosensor evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001171",
+          "label": "crystallography evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001170",
+          "label": "cross-linking evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001173",
+          "label": "cytochrome C release assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001172",
+          "label": "cytochemistry evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001167",
+          "label": "conditional knockin evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001168",
+          "label": "conditional knockout evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001169",
+          "label": "constitutively active mutant evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001163",
+          "label": "co-localization evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001164",
+          "label": "co-sedimentation assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001165",
+          "label": "colony counting evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001166",
+          "label": "comet assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001262",
+          "label": "wound healing assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001263",
+          "label": "urine test evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001264",
+          "label": "TUNEL assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001265",
+          "label": "tryptic phosphopeptide mapping assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001070",
+          "label": "in vitro sumoylation assay evidence"
+        },
+        {
+          "id": "ECO:0001266",
+          "label": "transgenic organism evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001071",
+          "label": "in vitro transcription assay evidence"
+        },
+        {
+          "id": "ECO:0001267",
+          "label": "tissue microarray evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001072",
+          "label": "in vitro translation assay evidence"
+        },
+        {
+          "id": "ECO:0001268",
+          "label": "TACE activity assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001073",
+          "label": "in vitro ubiquitination assay evidence"
+        },
+        {
+          "id": "ECO:0001269",
+          "label": "surface plasmon resonance evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0001074",
+          "label": "in vivo acetylation assay evidence"
+        },
+        {
+          "id": "ECO:0000114",
+          "label": "expression library screen evidence"
+        },
+        {
+          "id": "ECO:0000112",
+          "label": "Western blot evidence"
+        },
+        {
+          "id": "ECO:0000110",
+          "label": "RNA protection assay evidence"
+        },
+        {
+          "id": "ECO:0000118",
+          "label": "subtractive hybridization evidence"
+        },
+        {
+          "id": "ECO:0000260",
+          "label": "match to InterPro signature evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000116",
+          "label": "differential hybridization evidence"
+        },
+        {
+          "id": "ECO:0000253",
+          "label": "genetic similarity evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000252",
+          "label": "similarity evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000251",
+          "label": "similarity evidence used in automatic assertion"
+        },
+        {
+          "id": "ECO:0000250",
+          "label": "sequence similarity evidence used in manual assertion",
+          "code": "ISS"
+        },
+        {
+          "id": "ECO:0000257",
+          "label": "motif similarity evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000256",
+          "label": "match to sequence model evidence used in automatic assertion"
+        },
+        {
+          "id": "ECO:0000255",
+          "label": "match to sequence model evidence used in manual assertion",
+          "code": "ISM"
+        },
+        {
+          "id": "ECO:0000254",
+          "label": "genetic similarity evidence used in automatic assertion"
+        },
+        {
+          "id": "ECO:0000259",
+          "label": "match to InterPro signature evidence used in automatic assertion"
+        },
+        {
+          "id": "ECO:0000258",
+          "label": "motif similarity evidence used in automatic assertion"
+        },
+        {
+          "id": "ECO:0000100",
+          "label": "fractionation evidence"
+        },
+        {
+          "id": "ECO:0000101",
+          "label": "Affymetrix array experiment evidence"
+        },
+        {
+          "id": "ECO:0000102",
+          "label": "co-fractionation evidence"
+        },
+        {
+          "id": "ECO:0000108",
+          "label": "reverse transcription polymerase chain reaction transcription evidence"
+        },
+        {
+          "id": "ECO:0000109",
+          "label": "reverse transcription polymerase chain reaction evidence"
+        },
+        {
+          "id": "ECO:0000104",
+          "label": "microarray RNA expression level evidence"
+        },
+        {
+          "id": "ECO:0000105",
+          "label": "Nimblegen array evidence"
+        },
+        {
+          "id": "ECO:0000106",
+          "label": "Northern assay evidence"
+        },
+        {
+          "id": "ECO:0000240",
+          "label": "anatomical perturbation evidence"
+        },
+        {
+          "id": "ECO:0000242",
+          "label": "tissue ablation evidence"
+        },
+        {
+          "id": "ECO:0000241",
+          "label": "environmental perturbation evidence"
+        },
+        {
+          "id": "ECO:0000244",
+          "label": "combinatorial evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000243",
+          "label": "tissue grafting evidence"
+        },
+        {
+          "id": "ECO:0000246",
+          "label": "computational combinatorial evidence used in automatic assertion"
+        },
+        {
+          "id": "ECO:0000245",
+          "label": "computational combinatorial evidence used in manual assertion",
+          "code": "RCA"
+        },
+        {
+          "id": "ECO:0000248",
+          "label": "sequence alignment evidence used in automatic assertion"
+        },
+        {
+          "id": "ECO:0000247",
+          "label": "sequence alignment evidence used in manual assertion",
+          "code": "ISA"
+        },
+        {
+          "id": "ECO:0000249",
+          "label": "sequence similarity evidence used in automatic assertion"
+        },
+        {
+          "id": "ECO:0000281",
+          "label": "expression library screen evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000282",
+          "label": "heterologous protein expression evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000280",
+          "label": "protein expression level evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000279",
+          "label": "Western blot evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000278",
+          "label": "oligonucleotide microarray evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000277",
+          "label": "Nimblegen array evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000276",
+          "label": "genomic microarray evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000275",
+          "label": "expression microarray evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000274",
+          "label": "CpG island microarray evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000273",
+          "label": "cDNA microarray evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000272",
+          "label": "Affymetrix array experiment evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000270",
+          "label": "expression evidence used in manual assertion",
+          "code": "IEP"
+        },
+        {
+          "id": "ECO:0000271",
+          "label": "array experiment evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000266",
+          "label": "sequence orthology evidence used in manual assertion",
+          "code": "ISO"
+        },
+        {
+          "id": "ECO:0000265",
+          "label": "sequence orthology evidence used in automatic assertion"
+        },
+        {
+          "id": "ECO:0000268",
+          "label": "flow cytometry evidence"
+        },
+        {
+          "id": "ECO:0000267",
+          "label": "enzyme-linked immunoabsorbent assay evidence"
+        },
+        {
+          "id": "ECO:0000262",
+          "label": "targeting sequence prediction evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000261",
+          "label": "targeting sequence prediction evidence used in automatic assertion"
+        },
+        {
+          "id": "ECO:0000264",
+          "label": "transmembrane domain prediction evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000263",
+          "label": "transmembrane domain prediction evidence used in automatic assertion"
+        },
+        {
+          "id": "ECO:0000360",
+          "label": "biological target-disease association via drug"
+        },
+        {
+          "id": "ECO:0001097",
+          "label": "medical imaging evidence"
+        },
+        {
+          "id": "ECO:0001098",
+          "label": "microscopy evidence"
+        },
+        {
+          "id": "ECO:0000269",
+          "label": "experimental evidence used in manual assertion",
+          "code": "EXP"
+        },
+        {
+          "id": "ECO:0001099",
+          "label": "motility wound healing assay evidence"
+        },
+        {
+          "id": "ECO:0000011",
+          "label": "genetic interaction evidence"
+        },
+        {
+          "id": "ECO:0000010",
+          "label": "protein expression evidence"
+        },
+        {
+          "id": "ECO:0000015",
+          "label": "mutant phenotype evidence"
+        },
+        {
+          "id": "ECO:0000013",
+          "label": "transgenic rescue experiment evidence"
+        },
+        {
+          "id": "ECO:0000012",
+          "label": "functional complementation evidence"
+        },
+        {
+          "id": "ECO:0000158",
+          "label": "protein separation followed by direct sequencing evidence"
+        },
+        {
+          "id": "ECO:0000019",
+          "label": "RNAi evidence"
+        },
+        {
+          "id": "ECO:0000018",
+          "label": "anti-sense experiment evidence"
+        },
+        {
+          "id": "ECO:0000156",
+          "label": "protein separation evidence"
+        },
+        {
+          "id": "ECO:0000017",
+          "label": "ectopic expression evidence"
+        },
+        {
+          "id": "ECO:0000016",
+          "label": "loss-of-function mutant phenotype evidence"
+        },
+        {
+          "id": "ECO:0000154",
+          "label": "heterologous protein expression evidence"
+        },
+        {
+          "id": "ECO:0000152",
+          "label": "in vitro recombinant protein transcription reconstitution assay evidence"
+        },
+        {
+          "id": "ECO:0000160",
+          "label": "protein separation followed by fragment identification evidence"
+        },
+        {
+          "id": "ECO:0000216",
+          "label": "phylogenetic determination of loss of key residues evidence"
+        },
+        {
+          "id": "ECO:0000355",
+          "label": "phylogenetic distribution evidence"
+        },
+        {
+          "id": "ECO:0000217",
+          "label": "assertion method"
+        },
+        {
+          "id": "ECO:0000356",
+          "label": "differential gene expression evidence from microarray experiment"
+        },
+        {
+          "id": "ECO:0000214",
+          "label": "biological aspect of descendant evidence"
+        },
+        {
+          "id": "ECO:0000353",
+          "label": "physical interaction evidence used in manual assertion",
+          "code": "IPI"
+        },
+        {
+          "id": "ECO:0000215",
+          "label": "rapid divergence from ancestral sequence evidence"
+        },
+        {
+          "id": "ECO:0000354",
+          "label": "gene neighbors evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000351",
+          "label": "Partial support of intron position by RNA-seq alignment evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000352",
+          "label": "evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000218",
+          "label": "manual assertion"
+        },
+        {
+          "id": "ECO:0000219",
+          "label": "nucleotide sequencing assay evidence"
+        },
+        {
+          "id": "ECO:0000350",
+          "label": "Partial support of intron position by RNA-seq alignment evidence used in automatic assertion"
+        },
+        {
+          "id": "ECO:0000212",
+          "label": "combinatorial evidence"
+        },
+        {
+          "id": "ECO:0000359",
+          "label": "differential geneset expression evidence from RNA-seq experiment (GSEA, Fisher-exact)"
+        },
+        {
+          "id": "ECO:0000213",
+          "label": "combinatorial evidence used in automatic assertion"
+        },
+        {
+          "id": "ECO:0000210",
+          "label": "nucleotide BLAST evidence used in automatic assertion"
+        },
+        {
+          "id": "ECO:0000357",
+          "label": "differential gene expression evidence from RNA-seq experiment"
+        },
+        {
+          "id": "ECO:0000211",
+          "label": "protein BLAST evidence used in automatic assertion"
+        },
+        {
+          "id": "ECO:0000358",
+          "label": "differential geneset expression evidence from microarray experiment (GSEA, Fisher-exact)"
+        },
+        {
+          "id": "ECO:0000000",
+          "label": "evidence"
+        },
+        {
+          "id": "ECO:0000002",
+          "label": "direct assay evidence"
+        },
+        {
+          "id": "ECO:0000001",
+          "label": "inference from background scientific knowledge"
+        },
+        {
+          "id": "ECO:0000004",
+          "label": "cell fractionation evidence"
+        },
+        {
+          "id": "ECO:0000003",
+          "label": "reconstitution assay evidence"
+        },
+        {
+          "id": "ECO:0000006",
+          "label": "experimental evidence"
+        },
+        {
+          "id": "ECO:0000144",
+          "label": "Southwestern blot evidence"
+        },
+        {
+          "id": "ECO:0000005",
+          "label": "enzyme assay evidence"
+        },
+        {
+          "id": "ECO:0000008",
+          "label": "expression pattern evidence"
+        },
+        {
+          "id": "ECO:0000146",
+          "label": "Northwestern blot evidence"
+        },
+        {
+          "id": "ECO:0000007",
+          "label": "immunofluorescence evidence"
+        },
+        {
+          "id": "ECO:0000140",
+          "label": "thin layer chromatography evidence"
+        },
+        {
+          "id": "ECO:0000009",
+          "label": "transcript expression evidence"
+        },
+        {
+          "id": "ECO:0000142",
+          "label": "protein:ion binding evidence"
+        },
+        {
+          "id": "ECO:0000203",
+          "label": "automatic assertion"
+        },
+        {
+          "id": "ECO:0000342",
+          "label": "Support of intron position by RNA-seq alignment evidence"
+        },
+        {
+          "id": "ECO:0000204",
+          "label": "author statement"
+        },
+        {
+          "id": "ECO:0000343",
+          "label": "Full support of intron position by RNA-seq alignment evidence"
+        },
+        {
+          "id": "ECO:0000205",
+          "label": "curator inference"
+        },
+        {
+          "id": "ECO:0000344",
+          "label": "Partial support of intron position by RNA-seq alignment evidence"
+        },
+        {
+          "id": "ECO:0000150",
+          "label": "in vitro transcription reconstitution assay evidence"
+        },
+        {
+          "id": "ECO:0000206",
+          "label": "BLAST evidence"
+        },
+        {
+          "id": "ECO:0000345",
+          "label": "single exon transcript confirmation via alignment evidence"
+        },
+        {
+          "id": "ECO:0000207",
+          "label": "nucleotide BLAST evidence"
+        },
+        {
+          "id": "ECO:0000501",
+          "label": "evidence used in automatic assertion"
+        },
+        {
+          "id": "ECO:0000208",
+          "label": "protein BLAST evidence"
+        },
+        {
+          "id": "ECO:0000209",
+          "label": "BLAST evidence used in automatic assertion"
+        },
+        {
+          "id": "ECO:0000340",
+          "label": "plasmid maintenance assay evidence"
+        },
+        {
+          "id": "ECO:0000341",
+          "label": "specific protein inhibition by antibody evidence"
+        },
+        {
+          "id": "ECO:0000346",
+          "label": "Support of intron position by RNA-seq alignment evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000200",
+          "label": "sequence alignment evidence"
+        },
+        {
+          "id": "ECO:0000347",
+          "label": "Support of intron position by RNA-seq alignment evidence used in automatic assertion"
+        },
+        {
+          "id": "ECO:0000201",
+          "label": "sequence orthology evidence"
+        },
+        {
+          "id": "ECO:0000348",
+          "label": "Full support of intron position by RNA-seq alignment evidence used in automatic assertion"
+        },
+        {
+          "id": "ECO:0000202",
+          "label": "match to sequence model evidence"
+        },
+        {
+          "id": "ECO:0000349",
+          "label": "Full support of intron position by RNA-seq alignment evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000138",
+          "label": "ribohomopolymer binding assay evidence"
+        },
+        {
+          "id": "ECO:0000035",
+          "label": "no biological data found"
+        },
+        {
+          "id": "ECO:0000034",
+          "label": "non-traceable author statement"
+        },
+        {
+          "id": "ECO:0000033",
+          "label": "traceable author statement"
+        },
+        {
+          "id": "ECO:0000032",
+          "label": "nucleotide BLAST evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000031",
+          "label": "protein BLAST evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000030",
+          "label": "BLAST evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000132",
+          "label": "beta-galactosidase fusion protein localization evidence"
+        },
+        {
+          "id": "ECO:0000130",
+          "label": "beta-glucuronidase fusion protein localization evidence"
+        },
+        {
+          "id": "ECO:0000136",
+          "label": "nucleic acid binding evidence"
+        },
+        {
+          "id": "ECO:0000134",
+          "label": "transport assay evidence"
+        },
+        {
+          "id": "ECO:0000039",
+          "label": "protein assay evidence"
+        },
+        {
+          "id": "ECO:0000038",
+          "label": "transient rescue experiment evidence"
+        },
+        {
+          "id": "ECO:0000330",
+          "label": "coding sequence splice pattern evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000333",
+          "label": "sodium dodecyl sulfate polyacrylamide gel electrophoresis evidence"
+        },
+        {
+          "id": "ECO:0000238",
+          "label": "Hi-C evidence"
+        },
+        {
+          "id": "ECO:0000334",
+          "label": "particle size and count assay evidence"
+        },
+        {
+          "id": "ECO:0000239",
+          "label": "chromosome conformation capture sequencing evidence"
+        },
+        {
+          "id": "ECO:0000331",
+          "label": "coding sequence splice pattern evidence used in automatic assertion"
+        },
+        {
+          "id": "ECO:0000236",
+          "label": "chromosome conformation capture-PCR evidence"
+        },
+        {
+          "id": "ECO:0000332",
+          "label": "whole transcript splice pattern evidence used in automatic assertion"
+        },
+        {
+          "id": "ECO:0000237",
+          "label": "chromosome conformation capture-qPCR evidence"
+        },
+        {
+          "id": "ECO:0000337",
+          "label": "gel electrophoresis evidence"
+        },
+        {
+          "id": "ECO:0000234",
+          "label": "circularized chromosome conformation capture evidence"
+        },
+        {
+          "id": "ECO:0000040",
+          "label": "immunological assay evidence"
+        },
+        {
+          "id": "ECO:0000338",
+          "label": "pulsed-field gel electrophoresis evidence"
+        },
+        {
+          "id": "ECO:0000235",
+          "label": "carbon-copy chromosome conformation capture evidence"
+        },
+        {
+          "id": "ECO:0000335",
+          "label": "substance quantification evidence"
+        },
+        {
+          "id": "ECO:0000232",
+          "label": "chromosome conformation capture-based evidence"
+        },
+        {
+          "id": "ECO:0000336",
+          "label": "competitive growth assay evidence"
+        },
+        {
+          "id": "ECO:0000233",
+          "label": "chromosome conformation capture evidence"
+        },
+        {
+          "id": "ECO:0000230",
+          "label": "chromatin immunoprecipitation-chip evidence"
+        },
+        {
+          "id": "ECO:0000231",
+          "label": "quantitative polymerase chain reaction evidence"
+        },
+        {
+          "id": "ECO:0000339",
+          "label": "two-dimensional agarose gel electrophoresis evidence"
+        },
+        {
+          "id": "ECO:0000024",
+          "label": "protein binding evidence"
+        },
+        {
+          "id": "ECO:0000126",
+          "label": "green fluorescent protein fusion protein localization evidence"
+        },
+        {
+          "id": "ECO:0000023",
+          "label": "affinity evidence"
+        },
+        {
+          "id": "ECO:0000026",
+          "label": "nucleic acid hybridization evidence"
+        },
+        {
+          "id": "ECO:0000128",
+          "label": "yellow fluorescent protein fusion protein localization evidence"
+        },
+        {
+          "id": "ECO:0000025",
+          "label": "hybrid interaction evidence"
+        },
+        {
+          "id": "ECO:0000020",
+          "label": "specific protein inhibition evidence"
+        },
+        {
+          "id": "ECO:0000022",
+          "label": "co-purification evidence"
+        },
+        {
+          "id": "ECO:0000021",
+          "label": "physical interaction evidence"
+        },
+        {
+          "id": "ECO:0000120",
+          "label": "over expression analysis evidence"
+        },
+        {
+          "id": "ECO:0000028",
+          "label": "motif similarity evidence"
+        },
+        {
+          "id": "ECO:0000122",
+          "label": "protein localization evidence"
+        },
+        {
+          "id": "ECO:0000027",
+          "label": "structural similarity evidence"
+        },
+        {
+          "id": "ECO:0000124",
+          "label": "fusion protein localization evidence"
+        },
+        {
+          "id": "ECO:0000029",
+          "label": "match to InterPro signature evidence"
+        },
+        {
+          "id": "ECO:0000229",
+          "label": "chromatin immunoprecipitation-seq evidence"
+        },
+        {
+          "id": "ECO:0000225",
+          "label": "chain termination sequencing evidence"
+        },
+        {
+          "id": "ECO:0000320",
+          "label": "phylogenetic determination of loss of key residues evidence used in manual assertion",
+          "code": "IMR"
+        },
+        {
+          "id": "ECO:0000226",
+          "label": "chromatin immunoprecipitation evidence"
+        },
+        {
+          "id": "ECO:0000321",
+          "label": "rapid divergence from ancestral sequence evidence used in manual assertion",
+          "code": "IRD"
+        },
+        {
+          "id": "ECO:0000227",
+          "label": "chromatin immunoprecipitation-PCR evidence"
+        },
+        {
+          "id": "ECO:0000322",
+          "label": "imported manually asserted information used in automatic assertion"
+        },
+        {
+          "id": "ECO:0000228",
+          "label": "chromatin immunoprecipitation-qPCR evidence"
+        },
+        {
+          "id": "ECO:0000323",
+          "label": "imported automatically asserted information used in automatic assertion"
+        },
+        {
+          "id": "ECO:0000221",
+          "label": "high throughput nucleotide sequencing assay evidence"
+        },
+        {
+          "id": "ECO:0000324",
+          "label": "imaging assay evidence"
+        },
+        {
+          "id": "ECO:0000222",
+          "label": "Illumina sequencing evidence"
+        },
+        {
+          "id": "ECO:0000325",
+          "label": "chromatography evidence"
+        },
+        {
+          "id": "ECO:0000223",
+          "label": "454 pyrosequencing evidence"
+        },
+        {
+          "id": "ECO:0000326",
+          "label": "transcript splice pattern evidence"
+        },
+        {
+          "id": "ECO:0000224",
+          "label": "SOLiD sequencing evidence"
+        },
+        {
+          "id": "ECO:0000327",
+          "label": "whole transcript splice pattern evidence"
+        },
+        {
+          "id": "ECO:0000328",
+          "label": "coding sequence splice pattern evidence"
+        },
+        {
+          "id": "ECO:0000329",
+          "label": "whole transcript splice pattern evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000220",
+          "label": "sequencing assay evidence"
+        },
+        {
+          "id": "ECO:0000060",
+          "label": "positional similarity evidence"
+        },
+        {
+          "id": "ECO:0000062",
+          "label": "genomic microarray evidence"
+        },
+        {
+          "id": "ECO:0000061",
+          "label": "quantitative trait analysis evidence"
+        },
+        {
+          "id": "ECO:0000052",
+          "label": "suppressor/enhancer interaction evidence"
+        },
+        {
+          "id": "ECO:0000053",
+          "label": "computational combinatorial evidence"
+        },
+        {
+          "id": "ECO:0000054",
+          "label": "double mutant phenotype evidence"
+        },
+        {
+          "id": "ECO:0000055",
+          "label": "array experiment evidence"
+        },
+        {
+          "id": "ECO:0000056",
+          "label": "epistatic interaction evidence"
+        },
+        {
+          "id": "ECO:0000057",
+          "label": "phenotypic similarity evidence"
+        },
+        {
+          "id": "ECO:0000058",
+          "label": "expression microarray evidence"
+        },
+        {
+          "id": "ECO:0000059",
+          "label": "experimental phenotypic evidence"
+        },
+        {
+          "id": "ECO:0000051",
+          "label": "genetic similarity evidence"
+        },
+        {
+          "id": "ECO:0000050",
+          "label": "voucher specimen analysis evidence"
+        },
+        {
+          "id": "ECO:0000049",
+          "label": "reporter gene assay evidence"
+        },
+        {
+          "id": "ECO:0000184",
+          "label": "enzyme inhibition evidence"
+        },
+        {
+          "id": "ECO:0000044",
+          "label": "sequence similarity evidence"
+        },
+        {
+          "id": "ECO:0000041",
+          "label": "similarity evidence"
+        },
+        {
+          "id": "ECO:0000042",
+          "label": "gain-of-function mutant phenotype evidence"
+        },
+        {
+          "id": "ECO:0000047",
+          "label": "spatial pattern of transcript expression evidence"
+        },
+        {
+          "id": "ECO:0000048",
+          "label": "transcript expression level evidence"
+        },
+        {
+          "id": "ECO:0000045",
+          "label": "spatial pattern of protein expression evidence"
+        },
+        {
+          "id": "ECO:0000046",
+          "label": "protein expression level evidence"
+        },
+        {
+          "id": "ECO:0000082",
+          "label": "polymerase chain reaction evidence"
+        },
+        {
+          "id": "ECO:0000081",
+          "label": "targeting sequence prediction evidence"
+        },
+        {
+          "id": "ECO:0000084",
+          "label": "gene neighbors evidence"
+        },
+        {
+          "id": "ECO:0000083",
+          "label": "transmembrane domain prediction evidence"
+        },
+        {
+          "id": "ECO:0000080",
+          "label": "phylogenetic evidence"
+        },
+        {
+          "id": "ECO:0000181",
+          "label": "in vitro assay evidence"
+        },
+        {
+          "id": "ECO:0000180",
+          "label": "clinical study evidence"
+        },
+        {
+          "id": "ECO:0000183",
+          "label": "cell-free assay evidence"
+        },
+        {
+          "id": "ECO:0000182",
+          "label": "in vitro culture assay evidence"
+        },
+        {
+          "id": "ECO:0000174",
+          "label": "mutant physiological response evidence"
+        },
+        {
+          "id": "ECO:0000176",
+          "label": "mutant visible phenotype evidence"
+        },
+        {
+          "id": "ECO:0000177",
+          "label": "genomic context evidence"
+        },
+        {
+          "id": "ECO:0000178",
+          "label": "in vivo assay evidence"
+        },
+        {
+          "id": "ECO:0000179",
+          "label": "animal model system study evidence"
+        },
+        {
+          "id": "ECO:0000078",
+          "label": "Southern hybridization evidence"
+        },
+        {
+          "id": "ECO:0000079",
+          "label": "affinity chromatography evidence"
+        },
+        {
+          "id": "ECO:0000074",
+          "label": "split-ubiquitin assay evidence"
+        },
+        {
+          "id": "ECO:0000075",
+          "label": "gene expression similarity evidence"
+        },
+        {
+          "id": "ECO:0000076",
+          "label": "far-Western blotting evidence"
+        },
+        {
+          "id": "ECO:0000077",
+          "label": "methylation-specific polymerase chain reaction evidence"
+        },
+        {
+          "id": "ECO:0000073",
+          "label": "experimental genomic evidence"
+        },
+        {
+          "id": "ECO:0000071",
+          "label": "morphological similarity evidence"
+        },
+        {
+          "id": "ECO:0000070",
+          "label": "co-immunoprecipitation evidence"
+        },
+        {
+          "id": "ECO:0000172",
+          "label": "biochemical trait analysis evidence"
+        },
+        {
+          "id": "ECO:0000170",
+          "label": "transcriptional activation assay"
+        },
+        {
+          "id": "ECO:0000164",
+          "label": "electrophysiology assay evidence"
+        },
+        {
+          "id": "ECO:0000162",
+          "label": "heterologous system uptake evidence"
+        },
+        {
+          "id": "ECO:0000168",
+          "label": "transcription assay"
+        },
+        {
+          "id": "ECO:0000166",
+          "label": "two-electrode voltage clamp experiment evidence"
+        },
+        {
+          "id": "ECO:0000069",
+          "label": "differential methylation hybridization evidence"
+        },
+        {
+          "id": "ECO:0000067",
+          "label": "developmental similarity evidence"
+        },
+        {
+          "id": "ECO:0000068",
+          "label": "yeast 2-hybrid evidence"
+        },
+        {
+          "id": "ECO:0000065",
+          "label": "CpG island microarray evidence"
+        },
+        {
+          "id": "ECO:0000066",
+          "label": "yeast one-hybrid evidence"
+        },
+        {
+          "id": "ECO:0000063",
+          "label": "compositional similarity evidence"
+        },
+        {
+          "id": "ECO:0000064",
+          "label": "functional complementation in heterologous system evidence"
+        },
+        {
+          "id": "ECO:0000294",
+          "label": "bacterial one-hybrid evidence"
+        },
+        {
+          "id": "ECO:0000295",
+          "label": "RNA-seq evidence"
+        },
+        {
+          "id": "ECO:0000296",
+          "label": "green fluorescent protein transcript localization evidence"
+        },
+        {
+          "id": "ECO:0000297",
+          "label": "LacZ transcript localization evidence"
+        },
+        {
+          "id": "ECO:0000298",
+          "label": "cleavage arrested development evidence"
+        },
+        {
+          "id": "ECO:0000299",
+          "label": "cytochalasin experiment evidence"
+        },
+        {
+          "id": "ECO:0000097",
+          "label": "cDNA microarray evidence"
+        },
+        {
+          "id": "ECO:0000096",
+          "label": "electrophoretic mobility shift assay evidence"
+        },
+        {
+          "id": "ECO:0000098",
+          "label": "in situ hybridization evidence"
+        },
+        {
+          "id": "ECO:0000090",
+          "label": "immunogold labelling evidence"
+        },
+        {
+          "id": "ECO:0000285",
+          "label": "microarray RNA expression level evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000091",
+          "label": "isb-sib evidence"
+        },
+        {
+          "id": "ECO:0000286",
+          "label": "transcript expression level used in manual assertion"
+        },
+        {
+          "id": "ECO:0000283",
+          "label": "spatial pattern of protein expression evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000284",
+          "label": "protein expression evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000094",
+          "label": "biological assay evidence"
+        },
+        {
+          "id": "ECO:0000289",
+          "label": "spatial pattern of transcript expression evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000095",
+          "label": "cell growth assay evidence"
+        },
+        {
+          "id": "ECO:0000092",
+          "label": "epitope-tagged protein immunolocalization evidence"
+        },
+        {
+          "id": "ECO:0000287",
+          "label": "differential hybridization evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000093",
+          "label": "oligonucleotide microarray evidence"
+        },
+        {
+          "id": "ECO:0000288",
+          "label": "RNA protection assay evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000088",
+          "label": "biological system reconstruction"
+        },
+        {
+          "id": "ECO:0000087",
+          "label": "immunolocalization evidence"
+        },
+        {
+          "id": "ECO:0000086",
+          "label": "intermethylated site amplification evidence"
+        },
+        {
+          "id": "ECO:0000085",
+          "label": "immunoprecipitation evidence"
+        },
+        {
+          "id": "ECO:0000293",
+          "label": "systematic evolution of ligands by exponential amplification evidence"
+        },
+        {
+          "id": "ECO:0000292",
+          "label": "morpholino experiment evidence"
+        },
+        {
+          "id": "ECO:0000291",
+          "label": "transcript expression evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000290",
+          "label": "subtractive hybridization evidence used in manual assertion"
+        },
+        {
+          "id": "ECO:0000089",
+          "label": "restriction landmark genomic scanning evidence"
+        }
+      ],
+      "models-meta": {
+        "gomodel:539b93ec00000010": [
+          {
+            "key": "date",
+            "value": "2014-06-18"
+          }
+        ],
+        "gomodel:5459649100000001": [
+          {
+            "key": "title",
+            "value": "SYNGO_test1"
+          },
+          {
+            "key": "date",
+            "value": "2014-11-06"
+          },
+          {
+            "key": "contributor",
+            "value": "http://orcid.org/0000-0002-2825-0621"
+          }
+        ],
+        "gomodel:5437882f00000034": [
+          {
+            "key": "title",
+            "value": "PMID:10751410 requires_substance example"
+          },
+          {
+            "key": "date",
+            "value": "2014-10-24"
+          },
+          {
+            "key": "contributor",
+            "value": "GOC:pt"
+          },
+          {
+            "key": "comment",
+            "value": "example for annotation extension relation requires_substance"
+          }
+        ],
+        "gomodel:5482537600000031": [
+          {
+            "key": "comment",
+            "value": "added two different versions: one that involves direct regulation of transcription (i.e. we know the MF is transcription factor activity) and one that involves indirect regulation (we don't know the MF)"
+          },
+          {
+            "key": "title",
+            "value": "has_regulation_target PMID:21502138"
+          },
+          {
+            "key": "contributor",
+            "value": "GOC:pt"
+          },
+          {
+            "key": "date",
+            "value": "2015-03-05"
+          }
+        ],
+        "gomodel:539aab4300000001": [
+          {
+            "key": "date",
+            "value": "2014-06-13"
+          }
+        ],
+        "gomodel:542732ad00000010": [
+          {
+            "key": "contributor",
+            "value": "GOC:kmv"
+          },
+          {
+            "key": "contributor",
+            "value": "GOC:dos"
+          },
+          {
+            "key": "title",
+            "value": "RNAi mediates behavioral adaptation to odor (PMID:23993094)"
+          },
+          {
+            "key": "date",
+            "value": "2014-09-29"
+          }
+        ],
+        "gomodel:5525a0fc00000032": [
+          {
+            "key": "date",
+            "value": "2015-08-03"
+          },
+          {
+            "key": "contributor",
+            "value": "GOC:kmv"
+          },
+          {
+            "key": "title",
+            "value": "Consistency_paper_March_kmv"
+          },
+          {
+            "key": "comment",
+            "value": "Save for Kimberly 2015-08-03"
+          }
+        ],
+        "gomodel:5525a0fc00000051": [
+          {
+            "key": "contributor",
+            "value": "GOC:kmv"
+          },
+          {
+            "key": "date",
+            "value": "2015-05-01"
+          },
+          {
+            "key": "title",
+            "value": "April_consistency_paper_kmv"
+          }
+        ],
+        "gomodel:5482537600000052": [
+          {
+            "key": "title",
+            "value": "C. elegans AFD-mediated heat shock response"
+          },
+          {
+            "key": "date",
+            "value": "2015-03-30"
+          },
+          {
+            "key": "contributor",
+            "value": "GOC:kmv"
+          },
+          {
+            "key": "title",
+            "value": "C. elegans serotonin-mediated heat shock response"
+          }
+        ],
+        "gomodel:5482537600000018": [
+          {
+            "key": "date",
+            "value": "2015-02-16"
+          },
+          {
+            "key": "contributor",
+            "value": "GOC:dos"
+          },
+          {
+            "key": "title",
+            "value": "wasp_function"
+          },
+          {
+            "key": "comment",
+            "value": "Model built to illustrate the intention behind regulates_o_has_substrate & regulates_o_has_agent. Note that we would like to use has_substrate for relationship of kinase to smad3, but this is not (yet) available."
+          }
+        ],
+        "gomodel:542732ad00000005": [
+          {
+            "key": "contributor",
+            "value": "GOC:dos"
+          },
+          {
+            "key": "title",
+            "value": "inhibiting_NOS_In_force_of_heart_contraction"
+          },
+          {
+            "key": "date",
+            "value": "2014-09-29"
+          }
+        ],
+        "gomodel:5525a0fc00000075": [
+          {
+            "key": "title",
+            "value": "Yeast-Bfa1-Bub2-PT"
+          },
+          {
+            "key": "date",
+            "value": "2015-08-04"
+          },
+          {
+            "key": "contributor",
+            "value": "http://orcid.org/0000-0003-2468-9933"
+          },
+          {
+            "key": "contributor",
+            "value": "GOC:pt"
+          }
+        ],
+        "gomodel:531a636500000001": [
+          {
+            "key": "date",
+            "value": "2015-08-03"
+          },
+          {
+            "key": "title",
+            "value": "WNT7B-WNT1-FZD1"
+          },
+          {
+            "key": "contributor",
+            "value": "http://orcid.org/0000-0003-2468-9933"
+          }
+        ],
+        "gomodel:5437882f00000010": [
+          {
+            "key": "date",
+            "value": "2014-10-23"
+          },
+          {
+            "key": "title",
+            "value": "PMID:11875061 - causally_upstream_of example"
+          },
+          {
+            "key": "comment",
+            "value": "example for annotation extension relation causally_upstream_of"
+          },
+          {
+            "key": "contributor",
+            "value": "GOC:pt"
+          }
+        ],
+        "gomodel:5437882f00000001": [
+          {
+            "key": "date",
+            "value": "2014-10-23"
+          },
+          {
+            "key": "contributor",
+            "value": "GOC:pt"
+          },
+          {
+            "key": "comment",
+            "value": "example for annotation extension relation causally_upstream_of"
+          },
+          {
+            "key": "title",
+            "value": "PMID:24553947 causally_upstream_of example"
+          }
+        ],
+        "gomodel:5525a0fc00000003": [
+          {
+            "key": "contributor",
+            "value": "http://orcid.org/0000-0001-7476-6306"
+          },
+          {
+            "key": "title",
+            "value": "Consistency paper April dph"
+          },
+          {
+            "key": "date",
+            "value": "2015-04-10"
+          }
+        ],
+        "gomodel:546ed51c00000001": [
+          {
+            "key": "date",
+            "value": "2014-11-24"
+          },
+          {
+            "key": "contributor",
+            "value": "http://orcid.org/0000-0002-6601-2165"
+          },
+          {
+            "key": "comment",
+            "value": "http://www.ncbi.nlm.nih.gov/pubmed/?term=22880885"
+          },
+          {
+            "key": "title",
+            "value": "Antidepressants inhibit DNA methyltransferase 1 through reducing G9a levels"
+          }
+        ],
+        "gomodel:5437882f00000024": [
+          {
+            "key": "date",
+            "value": "2014-10-23"
+          },
+          {
+            "key": "title",
+            "value": "PMID:18567582"
+          },
+          {
+            "key": "contributor",
+            "value": "GOC:pt"
+          }
+        ],
+        "gomodel:5362b2ed00000016": [
+          {
+            "key": "source",
+            "value": "PMID:18434600"
+          },
+          {
+            "key": "title",
+            "value": "Aak1-complexModel"
+          },
+          {
+            "key": "contributor",
+            "value": "http://orcid.org/0000-0001-7476-6306"
+          },
+          {
+            "key": "comment",
+            "value": "keep"
+          },
+          {
+            "key": "date",
+            "value": "2015-08-04"
+          },
+          {
+            "key": "contributor",
+            "value": "http://orcid.org/0000-0003-2468-9933"
+          }
+        ],
+        "gomodel:5525a0fc00000001": [
+          {
+            "key": "date",
+            "value": "2015-08-03"
+          },
+          {
+            "key": "title",
+            "value": "Consistency Paper March dph"
+          },
+          {
+            "key": "contributor",
+            "value": "http://orcid.org/0000-0001-7476-6306"
+          },
+          {
+            "key": "contributor",
+            "value": "GOC:kmv"
+          }
+        ],
+        "gomodel:5482537600000040": [
+          {
+            "key": "date",
+            "value": "2015-03-09"
+          },
+          {
+            "key": "title",
+            "value": "TGFbeta-Hyal2 pathway PMID 19366691"
+          },
+          {
+            "key": "contributor",
+            "value": "GOC:pt"
+          }
+        ],
+        "gomodel:536d71c500000004": [
+          {
+            "key": "date",
+            "value": "2015-08-06"
+          },
+          {
+            "key": "contributor",
+            "value": "GOC:sjc"
+          },
+          {
+            "key": "comment",
+            "value": "Save."
+          },
+          {
+            "key": "title",
+            "value": "yeast phosphate starvation"
+          },
+          {
+            "key": "contributor",
+            "value": "GOC:pt"
+          }
+        ],
+        "gomodel:5408ded300000003": [
+          {
+            "key": "title",
+            "value": "extension relations: dependent_on PMID:21931591"
+          },
+          {
+            "key": "date",
+            "value": "2014-09-04"
+          },
+          {
+            "key": "contributor",
+            "value": "GOC:pt"
+          }
+        ],
+        "gomodel:5437882f00000021": [
+          {
+            "key": "date",
+            "value": "2014-10-23"
+          },
+          {
+            "key": "title",
+            "value": "PMID:15194431 dependent_on example"
+          },
+          {
+            "key": "contributor",
+            "value": "GOC:pt"
+          },
+          {
+            "key": "comment",
+            "value": "example for annotation extension relation dependent_on"
+          }
+        ],
+        "gomodel:5323da1800000002": [
+          {
+            "key": "date",
+            "value": "2015-08-03"
+          },
+          {
+            "key": "title",
+            "value": "NEDD4-model1"
+          },
+          {
+            "key": "contributor",
+            "value": "http://orcid.org/0000-0003-2468-9933"
+          }
+        ],
+        "gomodel:5525a0fc00000061": [
+          {
+            "key": "title",
+            "value": "MarchConsistencyPaperYeast-RB"
+          },
+          {
+            "key": "contributor",
+            "value": "http://orcid.org/0000-0003-2468-9933"
+          },
+          {
+            "key": "date",
+            "value": "2015-05-01"
+          }
+        ],
+        "gomodel:55ad81df00000001": [
+          {
+            "key": "comment",
+            "value": "Model to be used for experiments and testing."
+          },
+          {
+            "key": "title",
+            "value": "Scratch"
+          },
+          {
+            "key": "contributor",
+            "value": "GOC:sjc"
+          },
+          {
+            "key": "contributor",
+            "value": "GOC:kltm"
+          },
+          {
+            "key": "deprecated",
+            "value": "true"
+          },
+          {
+            "key": "date",
+            "value": "2015-08-07"
+          },
+          {
+            "key": "model-state",
+            "value": "development"
+          }
+        ],
+        "gomodel:0000000300000001": [
+          {
+            "key": "title",
+            "value": "Paul canonical WNT pathway (AI)"
+          },
+          {
+            "key": "date",
+            "value": "2015-08-06"
+          },
+          {
+            "key": "contributor",
+            "value": "GOC:sjc"
+          },
+          {
+            "key": "comment",
+            "value": "Save."
+          }
+        ],
+        "gomodel:539a033300000004": [
+          {
+            "key": "contributor",
+            "value": "http://orcid.org/0000-0001-7476-6306"
+          },
+          {
+            "key": "date",
+            "value": "2015-08-04"
+          },
+          {
+            "key": "comment",
+            "value": "keep"
+          },
+          {
+            "key": "contributor",
+            "value": "http://orcid.org/0000-0003-2468-9933"
+          },
+          {
+            "key": "title",
+            "value": "tgfb2-model"
+          }
+        ]
+      },
+      "models-meta-read-only": {
+        "gomodel:539b93ec00000010": {
+          "modified-p": false
+        },
+        "gomodel:5459649100000001": {
+          "modified-p": false
+        },
+        "gomodel:5437882f00000034": {
+          "modified-p": false
+        },
+        "gomodel:5482537600000031": {
+          "modified-p": false
+        },
+        "gomodel:539aab4300000001": {
+          "modified-p": false
+        },
+        "gomodel:542732ad00000010": {
+          "modified-p": false
+        },
+        "gomodel:5525a0fc00000032": {
+          "modified-p": false
+        },
+        "gomodel:5525a0fc00000051": {
+          "modified-p": false
+        },
+        "gomodel:5482537600000052": {
+          "modified-p": false
+        },
+        "gomodel:5482537600000018": {
+          "modified-p": false
+        },
+        "gomodel:542732ad00000005": {
+          "modified-p": false
+        },
+        "gomodel:5525a0fc00000075": {
+          "modified-p": false
+        },
+        "gomodel:531a636500000001": {
+          "modified-p": false
+        },
+        "gomodel:5437882f00000010": {
+          "modified-p": false
+        },
+        "gomodel:5437882f00000001": {
+          "modified-p": false
+        },
+        "gomodel:5525a0fc00000003": {
+          "modified-p": false
+        },
+        "gomodel:546ed51c00000001": {
+          "modified-p": false
+        },
+        "gomodel:5437882f00000024": {
+          "modified-p": false
+        },
+        "gomodel:5362b2ed00000016": {
+          "modified-p": false
+        },
+        "gomodel:5525a0fc00000001": {
+          "modified-p": false
+        },
+        "gomodel:5482537600000040": {
+          "modified-p": false
+        },
+        "gomodel:536d71c500000004": {
+          "modified-p": false
+        },
+        "gomodel:5408ded300000003": {
+          "modified-p": false
+        },
+        "gomodel:5437882f00000021": {
+          "modified-p": false
+        },
+        "gomodel:5323da1800000002": {
+          "modified-p": false
+        },
+        "gomodel:5525a0fc00000061": {
+          "modified-p": false
+        },
+        "gomodel:55ad81df00000001": {
+          "modified-p": true
+        },
+        "gomodel:0000000300000001": {
+          "modified-p": false
+        },
+        "gomodel:539a033300000004": {
+          "modified-p": false
+        }
+      }
+    }
+  }
+}
