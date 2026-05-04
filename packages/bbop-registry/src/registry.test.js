@@ -1,6 +1,6 @@
 import { describe, it } from "node:test";
 import { assert } from "chai";
-import { default as us } from "underscore";
+import us from "underscore";
 
 import registry from "./registry.js";
 

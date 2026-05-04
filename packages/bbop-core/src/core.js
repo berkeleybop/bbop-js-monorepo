@@ -4,7 +4,7 @@
  *
  * @module bbop-core
  */
-import { default as us } from "underscore";
+import us from "underscore";
 
 var each = us.each;
 

@@ -4,7 +4,7 @@
  * @module bbop-registry
  */
 
-import { default as us } from "underscore";
+import us from "underscore";
 import bbop from "bbop-core";
 
 var each = us.each;

@@ -1,6 +1,6 @@
-import { default as us } from "underscore";
-import { default as bbop } from "bbop-core";
-import { default as cytoscape } from "cytoscape";
+import us from "underscore";
+import bbop from "bbop-core";
+import cytoscape from "cytoscape";
 
 // Aliases
 var each = us.each;
