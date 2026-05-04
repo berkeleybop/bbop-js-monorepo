@@ -12,7 +12,7 @@
  * capture from JSON, on-the-fly creations, and display
  * properties. These used to be separate behaviors, but with the
  * client taking over more responsibility from Minerva, a more robust
- * and testable soluton was needed.
+ * and testable solution was needed.
  *
  * Types can be: class ids and the expressions: SVF, union, and
  * intersection. Of the latter group, all are nestable.

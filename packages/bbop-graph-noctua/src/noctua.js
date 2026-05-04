@@ -1,5 +1,5 @@
 /**
- * Purpose: Noctua editing operations ove a bbop-graph base.
+ * Purpose: Noctua editing operations over a bbop-graph base.
  *
  * The base pieces are just subclasses of their analogs in bbop-graph.
  *
@@ -17,7 +17,7 @@
  * Rules:
  *
  * A clique may only be removed from the graph, with its
- * constitutent sub_cliques contained as referenced subgraphs,
+ * constituent sub_cliques contained as referenced subgraphs,
  * when:
  * - all constituent sub_cliques have the "correct" structure
  * - all clique nodes are in at least one sub_clique
