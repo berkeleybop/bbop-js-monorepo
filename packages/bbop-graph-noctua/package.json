@@ -1,16 +1,18 @@
 {
-  "name": "bbop-layout",
-  "version": "0.0.4",
-  "description": "A collection of external and in-house layout engines producing an abstract common output for JavaScript graphs.",
+  "name": "bbop-graph-noctua",
+  "version": "0.0.35",
+  "description": "A subclass of bbop-graph that layers on a complete annotation and graph editing model for the Noctua set of tools.",
   "keywords": [
     "Berkeley BOP",
     "GO",
     "Gene Ontology",
+    "Minerva",
+    "Noctua",
     "bbop",
     "client",
-    "cytoscape",
     "graph",
-    "layout",
+    "math",
+    "mathematics",
     "node",
     "npm",
     "server"
@@ -31,19 +33,19 @@
   "type": "module",
   "exports": {
     ".": {
-      "import": "./dist/layout.mjs",
-      "require": "./dist/layout.cjs"
+      "import": "./dist/noctua.mjs",
+      "require": "./dist/noctua.cjs"
     }
   },
   "scripts": {
-    "build": "tsdown --format esm --format cjs src/layout.js",
+    "build": "tsdown --format esm --format cjs src/noctua.js",
     "prepack": "npm run build",
     "test": "node --test"
   },
   "dependencies": {
     "bbop-core": "^0.0.6",
     "bbop-graph": "^0.0.21",
-    "cytoscape": "^3.30.0",
+    "class-expression": "^0.0.13",
     "underscore": "^1.13.8"
   },
   "devDependencies": {

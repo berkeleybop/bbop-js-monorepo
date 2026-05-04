@@ -888,8 +888,7 @@ var cytoscape_layout_engines = function (ngraph, layout, args) {
       group: "nodes",
       data: {
         id: n.id(),
-        degree:
-          ngraph.get_child_nodes(n.id()).length * 10 + ngraph.get_parent_nodes(n.id()).length,
+        degree: ngraph.get_child_nodes(n.id()).length * 10 + ngraph.get_parent_nodes(n.id()).length,
       },
     });
   });
