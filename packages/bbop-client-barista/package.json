@@ -1,0 +1,55 @@
+{
+  "name": "bbop-client-barista",
+  "version": "0.0.7",
+  "description": "Manager for handling per-model client-to-client and server-to-client communication via Barista.",
+  "keywords": [
+    "Berkeley BOP",
+    "GO",
+    "Gene Ontology",
+    "Minerva",
+    "Noctua",
+    "bbop",
+    "berkeleybop",
+    "client",
+    "node",
+    "npm",
+    "server"
+  ],
+  "homepage": "https://berkeleybop.org/",
+  "bugs": {
+    "url": "https://github.com/berkeleybop/bbop-js-monorepo/issues"
+  },
+  "license": "BSD-3-Clause",
+  "author": "SJC <sjcarbon@lbl.gov>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berkeleybop/bbop-js-monorepo.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/manager.mjs",
+      "require": "./dist/manager.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsdown --format esm --format cjs src/manager.js",
+    "prepack": "npm run build",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "bbop-core": "^0.0.6",
+    "bbop-registry": "^0.0.3",
+    "socket.io-client": "^1.4.6"
+  },
+  "devDependencies": {
+    "chai": "^6.2.2",
+    "socket.io": "^1.4.6"
+  },
+  "engines": {
+    "node": ">=22 <25"
+  }
+}
