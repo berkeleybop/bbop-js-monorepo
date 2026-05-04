@@ -67,8 +67,10 @@ Recommended process:
 3. Keep public API shape stable.
 4. Replace old build/test infrastructure like gulp, mocha globals, or old packaging scripts with the monorepo-standard package scripts.
 5. Port tests to `node:test` and `chai` when needed.
-6. Make package metadata monorepo-consistent.
-7. Verify build, test, and pack behavior before considering the migration complete.
+6. Do not port tests named `trivial.test.js` or with the description "our testing environment is sane".
+7. Make package metadata monorepo-consistent.
+8. Do not add new sections to the README. Do not modify existing section headers in the README. Update content only as needed to reflect the new repository.
+9. Verify build, test, and pack behavior before considering the migration complete.
 
 ## Legacy Migration Notes
 
