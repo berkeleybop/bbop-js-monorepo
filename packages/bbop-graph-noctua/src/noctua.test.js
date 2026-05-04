@@ -36,8 +36,16 @@ describe("annotation helpers", function () {
     annotation.annotation("1", "2", "3");
     graph.add_annotation(annotation);
 
-    assert.deepEqual(annotation.annotation(), { key: "1", value: "2", "value-type": "3" }, "annotation is updated");
-    assert.equal(graph.get_annotation_by_id(annotation.id()).id(), annotation.id(), "graph lookup works");
+    assert.deepEqual(
+      annotation.annotation(),
+      { key: "1", value: "2", "value-type": "3" },
+      "annotation is updated",
+    );
+    assert.equal(
+      graph.get_annotation_by_id(annotation.id()).id(),
+      annotation.id(),
+      "graph lookup works",
+    );
     assert.equal(graph.get_annotations_by_key("1").length, 1, "graph key lookup works");
   });
 });
@@ -93,7 +101,11 @@ describe("evidence folding", function () {
   it("finds evidence seeds and cliques", function () {
     var graph = loadStandardGraph();
 
-    assert.equal(Object.keys(graph.extract_evidence_seeds()).length, 8, "all seeds are discoverable");
+    assert.equal(
+      Object.keys(graph.extract_evidence_seeds()).length,
+      8,
+      "all seeds are discoverable",
+    );
 
     var clique = graph.get_evidence_clique(seedA);
     var subclique = graph.get_evidence_subclique(seedA);
@@ -165,7 +177,11 @@ describe("graph updates", function () {
     baseForUpdate.update_with(updateGraph);
     assert.equal(baseForUpdate.annotations().length, 1, "update_with replaces graph annotations");
     assert.equal(baseForUpdate.all_nodes().length, 9, "update_with keeps folded duplicate nodes");
-    assert.equal(baseForUpdate.all_edges().length, 4, "update_with replaces local edges for updated nodes");
+    assert.equal(
+      baseForUpdate.all_edges().length,
+      4,
+      "update_with replaces local edges for updated nodes",
+    );
 
     baseForMerge.merge_special(updateGraph);
     assert.equal(baseForMerge.annotations().length, 1, "merge_special replaces graph annotations");
@@ -212,7 +228,11 @@ describe("validation metadata", function () {
     assert.equal(invalidGraph.valid_owl_p(), true, "owl validity loaded");
     assert.equal(invalidGraph.valid_shex_p(), false, "shex validity loaded");
     assert.equal(invalidGraph.violations().length, 2, "violations loaded");
-    assert.equal(invalidGraph.get_violations_by_id("gomodel:5d88482400000052/5d88482400000080").length, 1, "violations are queryable by node id");
+    assert.equal(
+      invalidGraph.get_violations_by_id("gomodel:5d88482400000052/5d88482400000080").length,
+      1,
+      "violations are queryable by node id",
+    );
 
     var inferredNode = invalidGraph.get_node("gomodel:5d88482400000052/5d88482400000053");
     assert.equal(inferredNode.types().length, 1, "base type retained");

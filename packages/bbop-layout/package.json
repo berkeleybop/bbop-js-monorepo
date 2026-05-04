@@ -8,9 +8,9 @@
     "Gene Ontology",
     "bbop",
     "client",
+    "cytoscape",
     "graph",
     "layout",
-    "cytoscape",
     "node",
     "npm",
     "server"
