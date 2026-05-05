@@ -13,9 +13,7 @@ var manager_jquery = managers.jquery;
 var response_base = bbopRestResponse.base;
 var response_json = bbopRestResponse.json;
 
-var start_port = 3344;
-var target = `http://localhost:${start_port}`;
-
+var target = null;
 var test_server = null;
 before(async function () {
   var app = express();
@@ -68,8 +66,10 @@ before(async function () {
   });
 
   await new Promise(function (resolve) {
-    test_server = app.listen(start_port, resolve);
+    test_server = app.listen(0, resolve);
   });
+  var port = test_server.address().port;
+  target = "http://localhost:" + port;
 });
 
 after(async function () {
