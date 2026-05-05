@@ -95,7 +95,7 @@ function normalizeErrorMessage(error) {
 }
 
 /**
- * Contructor for the REST manager.
+ * Constructor for the REST manager.
  *
  * See also: module:bbop-registry
  *

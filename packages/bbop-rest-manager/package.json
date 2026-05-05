@@ -1,7 +1,7 @@
 {
   "name": "bbop-rest-manager",
   "version": "0.0.17",
-  "description": "The is the 'new' version of the manager event model for BBOP systems.",
+  "description": "This is the 'new' version of the manager event model for BBOP systems.",
   "keywords": [
     "AmiGO",
     "Berkeley BOP",
