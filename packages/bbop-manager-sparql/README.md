@@ -7,7 +7,7 @@ endpoint; also allows for use of templates.
 
 ### Availability
 
-[GitHub](https://github.com/berkeleybop/bbop-js-monorepo/packages/bbop-manager-sparql)
+[GitHub](https://github.com/berkeleybop/bbop-js-monorepo/tree/main/packages/bbop-manager-sparql)
 
 [NPM](https://www.npmjs.com/package/bbop-manager-sparql)
 
@@ -41,6 +41,6 @@ Moving forward, the library will develop along with the use cases of the userbas
 ### Context:
 
 - BH17-specific workspace: https://github.com/dbcls/bh17/wiki/JavaScript-SPARQL-Libraries-(BBOP)
-- Code repository and issue tracker: https://github.com/berkeleybop/bbop-js-monorepo/packages/bbop-manager-sparql
+- Code repository and issue tracker: https://github.com/berkeleybop/bbop-js-monorepo/tree/main/packages/bbop-manager-sparql
 - Package repository: https://www.npmjs.com/package/bbop-manager-sparql
 - License: BSD 3-clause

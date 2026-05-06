@@ -7,6 +7,6 @@ communication via Barista.
 
 ### Availability
 
-[GitHub](https://github.com/berkeleybop/bbop-js-monorepo/packages/bbop-client-barista)
+[GitHub](https://github.com/berkeleybop/bbop-js-monorepo/tree/main/packages/bbop-client-barista)
 
 [NPM](https://www.npmjs.com/package/bbop-client-barista)

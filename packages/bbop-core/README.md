@@ -10,6 +10,6 @@ environment.
 
 ### Availability
 
-[GitHub](https://github.com/berkeleybop/bbop-js-monorepo/packages/bbop-core)
+[GitHub](https://github.com/berkeleybop/bbop-js-monorepo/tree/main/packages/bbop-core)
 
 [NPM](https://www.npmjs.com/package/bbop-core)

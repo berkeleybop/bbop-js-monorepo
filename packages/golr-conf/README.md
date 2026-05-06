@@ -10,6 +10,6 @@ facets, and metadata in a consistent way.
 
 ### Availability
 
-[GitHub](https://github.com/berkeleybop/bbop-js-monorepo/packages/golr-conf)
+[GitHub](https://github.com/berkeleybop/bbop-js-monorepo/tree/main/packages/golr-conf)
 
 [NPM](https://www.npmjs.com/package/golr-conf)

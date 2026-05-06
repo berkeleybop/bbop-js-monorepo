@@ -10,6 +10,6 @@ queries through `bbop-rest-manager`.
 
 ### Availability
 
-[GitHub](https://github.com/berkeleybop/bbop-js-monorepo/packages/bbop-manager-golr)
+[GitHub](https://github.com/berkeleybop/bbop-js-monorepo/tree/main/packages/bbop-manager-golr)
 
 [NPM](https://www.npmjs.com/package/bbop-manager-golr)

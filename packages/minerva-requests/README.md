@@ -8,6 +8,6 @@ You may be looking for the [Minerva request API](https://github.com/berkeleybop/
 
 ### Availability
 
-[GitHub](https://github.com/berkeleybop/bbop-js-monorepo/packages/minerva-requests)
+[GitHub](https://github.com/berkeleybop/bbop-js-monorepo/tree/main/packages/minerva-requests)
 
 [NPM](https://www.npmjs.com/package/minerva-requests)
