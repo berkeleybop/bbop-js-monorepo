@@ -54,7 +54,7 @@ var manager = function (endpoint, prefixes, response_handler, engine, mode) {
       } else if (anchor._mode === "async") {
         ret = anchor._engine.start(resource, payload);
       } else {
-        throw new Error('"mode" not set in new bbop-manager-minerva');
+        throw new Error('"mode" not set in new bbop-manager-sparql');
       }
       return ret;
     };

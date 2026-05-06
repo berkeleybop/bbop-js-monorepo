@@ -36,7 +36,7 @@ The JavaScript library set that we will base our work on is one already in use b
 
 ### Next steps
 
-Moving forward, the library will develop along with the use cases of the userbase; the resolution SPARQL template handling in a standard way is already under discussion, exploring both supporting a TBD standard or multiple contenders, including the custom one already in use in the library.
+Moving forward, the library will develop along with the use cases of the userbase; resolving SPARQL template handling in a standard way is already under discussion, exploring both supporting a TBD standard or multiple contenders, including the custom one already in use in the library.
 
 ### Context:
 
