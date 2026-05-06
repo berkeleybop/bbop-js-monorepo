@@ -132,7 +132,19 @@ describe("bbop-manager-sparql templates", function () {
 
     assert.equal(
       output,
-      'PREFIX wd: <http://www.wikidata.org/entity/> PREFIX wdt: <http://www.wikidata.org/prop/direct/>\nSELECT ?rtcl ?title ?author ?journal ?date WHERE {  ?rtcl wdt:P698 "999".\n  OPTIONAL { ?rtcl wdt:P1476 ?title. }\n  OPTIONAL { ?rtcl wdt:P2093 ?author. }\n  OPTIONAL { ?rtcl wdt:P1433 ?journal. }\n  OPTIONAL { ?rtcl wdt:P577 ?date. }\n}\n',
+      `PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+
+SELECT ?rtcl ?title ?author ?journal ?date
+WHERE
+{
+  ?rtcl wdt:P698 "999".
+  OPTIONAL { ?rtcl wdt:P1476 ?title. }
+  OPTIONAL { ?rtcl wdt:P2093 ?author. }
+  OPTIONAL { ?rtcl wdt:P1433 ?journal. }
+  OPTIONAL { ?rtcl wdt:P577 ?date. }
+}
+`,
     );
   });
 
@@ -145,7 +157,16 @@ describe("bbop-manager-sparql templates", function () {
 
     assert.equal(
       output,
-      'SELECT ?rtcl ?title ?author ?journal ?date WHERE {  ?rtcl wdt:P698 "999".\n  OPTIONAL { ?rtcl wdt:P1476 ?title. }\n  OPTIONAL { ?rtcl wdt:P2093 ?author. }\n  OPTIONAL { ?rtcl wdt:P1433 ?journal. }\n  OPTIONAL { ?rtcl wdt:P577 ?date. }\n}\n',
+      `SELECT ?rtcl ?title ?author ?journal ?date
+WHERE
+{
+  ?rtcl wdt:P698 "999".
+  OPTIONAL { ?rtcl wdt:P1476 ?title. }
+  OPTIONAL { ?rtcl wdt:P2093 ?author. }
+  OPTIONAL { ?rtcl wdt:P1433 ?journal. }
+  OPTIONAL { ?rtcl wdt:P577 ?date. }
+}
+`,
     );
   });
 
@@ -154,12 +175,30 @@ describe("bbop-manager-sparql templates", function () {
 
     assert.equal(
       m.template(loadFixture("template-03.yaml"), { pmid: "999" }),
-      'PREFIX wd:<http://www.wikidata.org/entity/> PREFIX wdt:<http://www.wikidata.org/prop/direct/> SELECT ?rtcl ?title ?author ?journal ?date WHERE {  ?rtcl wdt:P698 "999".\n  OPTIONAL { ?rtcl wdt:P1476 ?title. }\n  OPTIONAL { ?rtcl wdt:P2093 ?author. }\n  OPTIONAL { ?rtcl wdt:P1433 ?journal. }\n  OPTIONAL { ?rtcl wdt:P577 ?date. }\n}\n',
+      `PREFIX wd:<http://www.wikidata.org/entity/> PREFIX wdt:<http://www.wikidata.org/prop/direct/> SELECT ?rtcl ?title ?author ?journal ?date
+WHERE
+{
+  ?rtcl wdt:P698 "999".
+  OPTIONAL { ?rtcl wdt:P1476 ?title. }
+  OPTIONAL { ?rtcl wdt:P2093 ?author. }
+  OPTIONAL { ?rtcl wdt:P1433 ?journal. }
+  OPTIONAL { ?rtcl wdt:P577 ?date. }
+}
+`,
     );
 
     assert.equal(
       m.template(loadFixture("template-04.yaml"), { pmid: "999" }),
-      'PREFIX wd:<http://www.wikidata.org/entity/> PREFIX wdt:<http://www.wikidata.org/prop/direct/> SELECT ?rtcl ?title ?author ?journal ?date\nWHERE\n{\n  ?rtcl wdt:P698 "999".\n  OPTIONAL { ?rtcl wdt:P1476 ?title. }\n  OPTIONAL { ?rtcl wdt:P2093 ?author. }\n  OPTIONAL { ?rtcl wdt:P1433 ?journal. }\n  OPTIONAL { ?rtcl wdt:P577 ?date. }\n}\n',
+      `PREFIX wd:<http://www.wikidata.org/entity/> PREFIX wdt:<http://www.wikidata.org/prop/direct/> SELECT ?rtcl ?title ?author ?journal ?date
+WHERE
+{
+  ?rtcl wdt:P698 "999".
+  OPTIONAL { ?rtcl wdt:P1476 ?title. }
+  OPTIONAL { ?rtcl wdt:P2093 ?author. }
+  OPTIONAL { ?rtcl wdt:P1433 ?journal. }
+  OPTIONAL { ?rtcl wdt:P577 ?date. }
+}
+`,
     );
   });
 
@@ -169,7 +208,16 @@ describe("bbop-manager-sparql templates", function () {
 
     assert.equal(
       output,
-      "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX gomodel: <http://model.geneontology.org/#>\nSELECT * WHERE {\n  GRAPH { gomodel:123\n    ?sub ?pred ?obj .\n  }\n}\nLIMIT 20\n",
+      `PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX gomodel: <http://model.geneontology.org/#>
+SELECT * WHERE {
+  GRAPH { gomodel:123
+    ?sub ?pred ?obj .
+  }
+}
+LIMIT 20
+`,
     );
   });
 

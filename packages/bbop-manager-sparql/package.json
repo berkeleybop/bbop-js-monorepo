@@ -42,7 +42,7 @@
     "bbop-registry": "^0.0.3",
     "mustache": "^4.2.0",
     "underscore": "^1.13.8",
-    "yamljs": "^0.3.0"
+    "yaml": "^2.8.4"
   },
   "devDependencies": {
     "chai": "^6.2.2"

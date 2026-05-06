@@ -4,7 +4,7 @@ endpoint: "https://query.wikidata.org/sparql"
 variables:
   - name: pmid
     comment: The intended PMID, just the local part.
-query: >
+query: |
   PREFIX wd: <http://www.wikidata.org/entity/>
   PREFIX wdt: <http://www.wikidata.org/prop/direct/>
 

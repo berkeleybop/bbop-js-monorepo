@@ -10,7 +10,7 @@ import registry from "bbop-registry";
 
 import us from "underscore";
 import mustache from "mustache";
-import yaml from "yamljs";
+import yaml from "yaml";
 
 /**
  * A manager for handling the AJAX and registry. Initial take from
