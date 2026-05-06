@@ -64,19 +64,21 @@ Recommended process:
 
 1. Copy the original source and tests into `packages/<name>/src/`.
 2. Convert CommonJS source to ESM only as much as needed for the current package pattern.
-3. Keep public API shape stable.
-4. Replace old build/test infrastructure like gulp, mocha globals, or old packaging scripts with the monorepo-standard package scripts.
-5. Port tests to `node:test` and `chai` when needed.
-6. Do not port tests named `trivial.test.js` or with the description "our testing environment is sane".
-7. Make package metadata monorepo-consistent.
-8. Do not add new sections to the README. Do not modify existing section headers in the README. Update content only as needed to reflect the new repository.
-9. Verify build, test, and pack behavior before considering the migration complete.
+3. Preserve upstream source comments and docblocks when porting package code. Prefer a direct source carryover plus mechanical module conversion over rewriting or condensing the implementation.
+4. Keep public API shape stable.
+5. Replace old build/test infrastructure like gulp, mocha globals, or old packaging scripts with the monorepo-standard package scripts.
+6. Port tests to `node:test` and `chai` when needed.
+7. Do not port tests named `trivial.test.js` or with the description "our testing environment is sane".
+8. Make package metadata monorepo-consistent.
+9. Do not add new sections to the README. Do not modify existing section headers in the README. Update content only as needed to reflect the new repository.
+10. Verify build, test, and pack behavior before considering the migration complete.
 
 ## Legacy Migration Notes
 
 - Many legacy packages were originally standalone repositories with old metadata and old dependency versions.
 - Do not copy old `repository`, `bugs`, or docs URLs blindly. Update them to the monorepo unless there is a deliberate reason not to.
 - Do not keep old gulp-based pipelines. The monorepo standard is direct package scripts with `tsdown` and `node --test`.
+- When porting legacy source files, do not treat comments as optional cleanup. Keep upstream inline comments and API doc comments unless there is a concrete reason to remove or rewrite them.
 - Old tests may contain assumptions that break during migration because setup steps were implicit in previous tooling. Read failing tests carefully before changing runtime code.
 - Preserve package versions unless there is a specific reason to bump during the migration.
 - Prefer bounded internal dependency ranges like `^0.0.6` over `*` for workspace packages that will be published independently.
