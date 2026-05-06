@@ -1,0 +1,57 @@
+{
+  "name": "bbop-manager-minerva",
+  "version": "0.0.21",
+  "description": "Manager for handling communication and callbacks with a Minerva instances (mediated by Barista).",
+  "keywords": [
+    "AmiGO",
+    "Berkeley BOP",
+    "GO",
+    "Gene Ontology",
+    "Minerva",
+    "Noctua",
+    "bbop",
+    "client",
+    "node",
+    "npm",
+    "server"
+  ],
+  "homepage": "https://berkeleybop.org/",
+  "bugs": {
+    "url": "https://github.com/berkeleybop/bbop-js-monorepo/issues"
+  },
+  "license": "BSD-3-Clause",
+  "author": "SJC <sjcarbon@lbl.gov>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berkeleybop/bbop-js-monorepo.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/manager.mjs",
+      "require": "./dist/manager.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsdown --format esm --format cjs src/manager.js",
+    "prepack": "npm run build",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "bbop-core": "^0.0.6",
+    "bbop-registry": "^0.0.3",
+    "bbop-response-barista": "^0.0.11",
+    "class-expression": "^0.0.13",
+    "minerva-requests": "^0.0.18",
+    "underscore": "^1.13.8"
+  },
+  "devDependencies": {
+    "chai": "^6.2.2"
+  },
+  "engines": {
+    "node": ">=22 <25"
+  }
+}
