@@ -7,6 +7,6 @@ Barista (enveloping Minerva).
 
 ### Availability
 
-[GitHub](https://github.com/berkeleybop/bbop-js-monorepo/packages/bbop-response-barista)
+[GitHub](https://github.com/berkeleybop/bbop-js-monorepo/tree/main/packages/bbop-response-barista)
 
 [NPM](https://www.npmjs.com/package/bbop-response-barista)

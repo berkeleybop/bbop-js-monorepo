@@ -27,6 +27,6 @@ the unit tests.
 
 ### Availability
 
-[GitHub](https://github.com/berkeleybop/bbop-js-monorepo/packages/bbop-rest-response)
+[GitHub](https://github.com/berkeleybop/bbop-js-monorepo/tree/main/packages/bbop-rest-response)
 
 [NPM](https://www.npmjs.com/package/bbop-rest-response)

@@ -8,6 +8,6 @@ found in a Noctua environment.
 
 ### Availability
 
-[GitHub](https://github.com/berkeleybop/bbop-js-monorepo/packages/bbop-graph-noctua)
+[GitHub](https://github.com/berkeleybop/bbop-js-monorepo/tree/main/packages/bbop-graph-noctua)
 
 [NPM](https://www.npmjs.com/package/bbop-graph-noctua)

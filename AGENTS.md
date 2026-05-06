@@ -52,7 +52,7 @@ Typical `package.json` conventions:
 Typical README conventions:
 
 - Short overview only
-- GitHub link should point to `https://github.com/berkeleybop/bbop-js-monorepo/packages/<package-name>`
+- GitHub link should point to `https://github.com/berkeleybop/bbop-js-monorepo/tree/main/packages/<package-name>`
 - NPM link should point to the published package name
 - Avoid carrying forward stale standalone-repo links unless they are still intentionally canonical
 

@@ -12,6 +12,6 @@ highlight handling.
 
 ### Availability
 
-[GitHub](https://github.com/berkeleybop/bbop-js-monorepo/packages/bbop-response-golr)
+[GitHub](https://github.com/berkeleybop/bbop-js-monorepo/tree/main/packages/bbop-response-golr)
 
 [NPM](https://www.npmjs.com/package/bbop-response-golr)

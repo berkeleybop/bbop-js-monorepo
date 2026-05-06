@@ -11,6 +11,6 @@ NOTE: The legacy tests depended on a running noctua-dev server. In this monorepo
 
 ### Availability
 
-[GitHub](https://github.com/berkeleybop/bbop-js-monorepo/packages/bbop-manager-minerva)
+[GitHub](https://github.com/berkeleybop/bbop-js-monorepo/tree/main/packages/bbop-manager-minerva)
 
 [NPM](https://www.npmjs.com/package/bbop-manager-minerva)
