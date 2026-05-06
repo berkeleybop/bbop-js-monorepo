@@ -1,0 +1,21 @@
+title: "Get PubMed info for a PMID. (exp)"
+description: "Get title, author, journal, and date by PMID. The prefixes are stored in an optional field in this file."
+endpoint: "https://query.wikidata.org/sparql"
+prefixes:
+  - prefix: wd
+    expansion: <http://www.wikidata.org/entity/>
+  - prefix: wdt
+    expansion: <http://www.wikidata.org/prop/direct/>
+variables:
+  - name: pmid
+    comment: The intended PMID, just the local part.
+query: >
+  SELECT ?rtcl ?title ?author ?journal ?date
+  WHERE
+  {
+    ?rtcl wdt:P698 "{{ pmid }}".
+    OPTIONAL { ?rtcl wdt:P1476 ?title. }
+    OPTIONAL { ?rtcl wdt:P2093 ?author. }
+    OPTIONAL { ?rtcl wdt:P1433 ?journal. }
+    OPTIONAL { ?rtcl wdt:P577 ?date. }
+  }
