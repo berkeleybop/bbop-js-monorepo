@@ -1,6 +1,6 @@
 {
   "name": "minerva-requests",
-  "version": "0.0.18",
+  "version": "0.1.0",
   "description": "JavaScript library for generating request information for interactions with a Minerva server.",
   "keywords": [
     "Berkeley BOP",
@@ -40,12 +40,12 @@
     "test": "node --test"
   },
   "dependencies": {
-    "bbop-core": "^0.0.6",
-    "class-expression": "^0.0.13",
+    "bbop-core": "^0.1.0",
+    "class-expression": "^0.1.0",
     "underscore": "^1.13.8"
   },
   "devDependencies": {
-    "bbop-graph-noctua": "^0.0.35",
+    "bbop-graph-noctua": "^0.1.0",
     "chai": "^6.2.2"
   },
   "engines": {

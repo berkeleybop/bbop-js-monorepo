@@ -1,6 +1,6 @@
 {
   "name": "bbop-layout",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "A collection of external and in-house layout engines producing an abstract common output for JavaScript graphs.",
   "keywords": [
     "Berkeley BOP",
@@ -41,8 +41,8 @@
     "test": "node --test"
   },
   "dependencies": {
-    "bbop-core": "^0.0.6",
-    "bbop-graph": "^0.0.21",
+    "bbop-core": "^0.1.0",
+    "bbop-graph": "^0.1.0",
     "cytoscape": "^3.30.0",
     "underscore": "^1.13.8"
   },

@@ -1,6 +1,6 @@
 {
   "name": "bbop-client-barista",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "Manager for handling per-model client-to-client and server-to-client communication via Barista.",
   "keywords": [
     "Berkeley BOP",
@@ -41,8 +41,8 @@
     "test": "node --test"
   },
   "dependencies": {
-    "bbop-core": "^0.0.6",
-    "bbop-registry": "^0.0.3",
+    "bbop-core": "^0.1.0",
+    "bbop-registry": "^0.1.0",
     "socket.io-client": "^1.4.6"
   },
   "devDependencies": {

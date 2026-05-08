@@ -1,6 +1,6 @@
 {
   "name": "bbop-rest-response",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Generic handler for dealing with the gross parsing and handling of responses from a REST service.",
   "keywords": [
     "AmiGO",
@@ -41,7 +41,7 @@
     "test": "node --test"
   },
   "dependencies": {
-    "bbop-core": "^0.0.6"
+    "bbop-core": "^0.1.0"
   },
   "devDependencies": {
     "chai": "^6.2.2"

@@ -1,6 +1,6 @@
 {
   "name": "bbop-rest-manager",
-  "version": "0.0.17",
+  "version": "0.1.0",
   "description": "This is the 'new' version of the manager event model for BBOP systems.",
   "keywords": [
     "AmiGO",
@@ -41,12 +41,12 @@
     "test": "node --test"
   },
   "dependencies": {
-    "bbop-core": "^0.0.6",
-    "bbop-registry": "^0.0.3",
+    "bbop-core": "^0.1.0",
+    "bbop-registry": "^0.1.0",
     "underscore": "^1.13.8"
   },
   "devDependencies": {
-    "bbop-rest-response": "^0.0.4",
+    "bbop-rest-response": "^0.1.0",
     "body-parser": "^2.2.2",
     "chai": "^6.2.2",
     "express": "^5.2.1"

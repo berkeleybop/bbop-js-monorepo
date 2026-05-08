@@ -1,6 +1,6 @@
 {
   "name": "bbop-graph-noctua",
-  "version": "0.0.35",
+  "version": "0.1.0",
   "description": "A subclass of bbop-graph that layers on a complete annotation and graph editing model for the Noctua set of tools.",
   "keywords": [
     "Berkeley BOP",
@@ -43,8 +43,8 @@
     "test": "node --test"
   },
   "dependencies": {
-    "bbop-core": "^0.0.6",
-    "bbop-graph": "^0.0.21",
+    "bbop-core": "^0.1.0",
+    "bbop-graph": "^0.1.0",
     "class-expression": "^0.0.13",
     "underscore": "^1.13.8"
   },

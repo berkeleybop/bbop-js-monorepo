@@ -1,6 +1,6 @@
 {
   "name": "bbop-core",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "A set of useful and common JavaScript functions to supplement other more basic utility libraries.",
   "keywords": [
     "Berkeley BOP",

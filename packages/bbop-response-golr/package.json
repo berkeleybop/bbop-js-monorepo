@@ -1,6 +1,6 @@
 {
   "name": "bbop-response-golr",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "Response type and API for handling the returns from a GOlr instance in a standard way.",
   "keywords": [
     "AmiGO",
@@ -41,8 +41,8 @@
     "test": "node --test"
   },
   "dependencies": {
-    "bbop-core": "^0.0.6",
-    "bbop-rest-response": "^0.0.4",
+    "bbop-core": "^0.1.0",
+    "bbop-rest-response": "^0.1.0",
     "underscore": "^1.13.8"
   },
   "devDependencies": {

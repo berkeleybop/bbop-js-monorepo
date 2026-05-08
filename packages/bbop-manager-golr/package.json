@@ -1,6 +1,6 @@
 {
   "name": "bbop-manager-golr",
-  "version": "0.0.13",
+  "version": "0.1.0",
   "description": "Manager for handling communication and callbacks with GOlr instances.",
   "keywords": [
     "AmiGO",
@@ -41,13 +41,13 @@
     "test": "node --test"
   },
   "dependencies": {
-    "bbop-core": "^0.0.6",
-    "bbop-registry": "^0.0.3",
+    "bbop-core": "^0.1.0",
+    "bbop-registry": "^0.1.0",
     "underscore": "^1.13.8"
   },
   "devDependencies": {
     "chai": "^6.2.2",
-    "golr-conf": "^0.0.3"
+    "golr-conf": "^0.1.0"
   },
   "engines": {
     "node": ">=22 <25"
