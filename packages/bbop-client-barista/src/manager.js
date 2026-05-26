@@ -131,10 +131,13 @@ function manager(barista_location, token) {
       ll("no good socket on connect; did you connect()?");
     } else {
       anchor.socket = io(barista_location, {
-        withCredentials: false
+        withCredentials: false,
       });
       anchor.model_id = model_id;
-      anchor.socket_id = anchor.socket.id;
+      anchor.socket_id = null;
+      anchor.socket.once("connect", function () {
+        anchor.socket_id = anchor.socket.id;
+      });
 
       var _inject_data_with_client_info = function (data) {
         if (!data) {
