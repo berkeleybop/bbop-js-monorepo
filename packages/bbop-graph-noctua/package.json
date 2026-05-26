@@ -45,7 +45,7 @@
   "dependencies": {
     "bbop-core": "^0.1.0",
     "bbop-graph": "^0.1.0",
-    "class-expression": "^0.0.13",
+    "class-expression": "^0.1.0",
     "underscore": "^1.13.8"
   },
   "devDependencies": {
