@@ -1,6 +1,6 @@
 {
   "name": "bbop-client-barista",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Manager for handling per-model client-to-client and server-to-client communication via Barista.",
   "keywords": [
     "Berkeley BOP",
