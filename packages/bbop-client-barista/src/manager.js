@@ -65,7 +65,7 @@ function manager(barista_location, token) {
     }
   }
 
-  if (typeof io === "undefined" || typeof io.connect === "undefined") {
+  if (typeof io === "undefined") {
     ll("was unable to load server.io from messaging server (io undefined)");
     anchor.okay_p = false;
   } else {
