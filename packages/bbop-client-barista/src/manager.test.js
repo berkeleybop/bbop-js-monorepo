@@ -3,7 +3,7 @@ import { assert } from "chai";
 import http from "node:http";
 
 import manager from "./manager.js";
-import socketIo from "socket.io";
+import { Server } from "socket.io";
 
 function waitForEvent(client, category, predicate) {
   return new Promise(function (resolve) {
@@ -29,13 +29,13 @@ async function closeClient(client) {
 }
 
 describe("barista client can function minimally", function () {
-  var server = null;
+  var httpServer = null;
   var io = null;
   var baseUrl = null;
 
   before(async function () {
-    server = http.createServer();
-    io = socketIo(server);
+    httpServer = http.createServer();
+    io = new Server(httpServer);
 
     io.on("connection", function (socket) {
       socket.emit("initialization", {
@@ -54,8 +54,8 @@ describe("barista client can function minimally", function () {
     });
 
     await new Promise(function (resolve) {
-      server.listen(0, "127.0.0.1", function () {
-        var address = server.address();
+      httpServer.listen(0, "127.0.0.1", function () {
+        var address = httpServer.address();
         baseUrl = "http://127.0.0.1:" + address.port;
         resolve();
       });
@@ -66,12 +66,12 @@ describe("barista client can function minimally", function () {
     await new Promise(function (resolve, reject) {
       io.close();
 
-      if (!server.listening) {
+      if (!httpServer.listening) {
         resolve();
         return;
       }
 
-      server.close(function (error) {
+      httpServer.close(function (error) {
         if (error) {
           reject(error);
         } else {

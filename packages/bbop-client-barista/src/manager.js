@@ -15,7 +15,7 @@
 
 import bbop from "bbop-core";
 import registry from "bbop-registry";
-import io from "socket.io-client";
+import { io } from "socket.io-client";
 
 /*
  * Constructor: client
@@ -130,7 +130,9 @@ function manager(barista_location, token) {
     if (!anchor.okay()) {
       ll("no good socket on connect; did you connect()?");
     } else {
-      anchor.socket = io.connect(barista_location);
+      anchor.socket = io(barista_location, {
+        withCredentials: false
+      });
       anchor.model_id = model_id;
       anchor.socket_id = anchor.socket.id;
 
