@@ -64,19 +64,19 @@ describe("barista client can function minimally", function () {
 
   after(async function () {
     await new Promise(function (resolve, reject) {
-      io.close();
-
-      if (!httpServer.listening) {
-        resolve();
-        return;
-      }
-
-      httpServer.close(function (error) {
-        if (error) {
-          reject(error);
-        } else {
+      io.close(() => {
+        if (!httpServer.listening) {
           resolve();
+          return;
         }
+
+        httpServer.close(function (error) {
+          if (error) {
+            reject(error);
+          } else {
+            resolve();
+          }
+        });
       });
     });
   });
